@@ -1,0 +1,20 @@
+
+g
+java:S11920"LDefine a constant instead of duplicating this literal "Diners Club" 4 times.(ƒ¸ìðÿÿÿÿÿ
+J
+java:S1066K"/Merge this if statement with the enclosing one.(ŽŸ”¼ýÿÿÿÿ
+E
+java:S1066W"/Merge this if statement with the enclosing one.(´Ÿ”û
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡š¤¤úÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ö‰…Ýûÿÿÿÿ
+;
+java:S1659" Declare "s2" on a separate line.(ÚŠ§²øÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(‡š¤¤úÿÿÿÿ
+>	java:S108(")Either remove or fill this block of code.(å¥ž‡
+b
+java:S18712"LThis branch's code block is the same as the block for the branch on line 47.(¾Ýß
+>	java:S1088")Either remove or fill this block of code.(å¥ž‡
+b
+java:S1871@"LThis branch's code block is the same as the block for the branch on line 61.(íÅÉš
+>	java:S108C")Either remove or fill this block of code.(å¥ž‡

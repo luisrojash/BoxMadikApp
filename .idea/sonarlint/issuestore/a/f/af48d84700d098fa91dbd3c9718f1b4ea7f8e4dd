@@ -1,0 +1,24 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•“Ãğ
+D
+java:S1604ï"(Make this anonymous inner class a lambda(ÁÓø“ÿÿÿÿÿ
+
+java:S1186—"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À˜Ğ¡şÿÿÿÿ
+
+java:S1186¡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áá„üÿÿÿÿ
+
+java:S1186¦"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğŒÂ´şÿÿÿÿ
+R
+java:S1854¾";Remove this useless assignment to local variable "message".(üÓÒÙ
+8	java:S131""Add a default case to this switch.(¦¦¢†
+
+java:S3252¼"hUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_SHORT".(Ã÷µÁ
+C
+java:S1481¾",Remove this unused "message" local variable.(üÓÒÙ
+R	java:S125·"<This block of commented-out lines of code should be removed.(·ôå˜
+W	java:S125À"<This block of commented-out lines of code should be removed.(”—ğùÿÿÿÿ
+W	java:S125Â"<This block of commented-out lines of code should be removed.(ƒ¹´¼ûÿÿÿÿ
+R	java:S125â"<This block of commented-out lines of code should be removed.( ¢úÉ
+R	java:S125ø"<This block of commented-out lines of code should be removed.(Ÿ°‘ß
+Q	java:S125"<This block of commented-out lines of code should be removed.(¯É¼9
+W	java:S125•"<This block of commented-out lines of code should be removed.(£ºÌııÿÿÿÿ

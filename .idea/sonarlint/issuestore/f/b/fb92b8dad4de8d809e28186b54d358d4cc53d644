@@ -1,0 +1,16 @@
+
+W	java:S125‚"<This block of commented-out lines of code should be removed.(Ú¨¶£ùÿÿÿÿ
+=
+java:S1172"&Remove these unused method parameters.(ù’ÿÓ
+3
+java:S1700%"Rename field "splashActivity"(ê‡À¥
+V	java:S125P"<This block of commented-out lines of code should be removed.(˜è÷üÿÿÿÿ
+O
+java:S1128"9Remove this unused import 'androidx.annotation.Nullable'.(¾Èêš
+>
+java:S1172{"(Remove this unused method parameter "i".(ù’ÿÓ
+Q	java:S125M"<This block of commented-out lines of code should be removed.(ğİ£Ê
+V	java:S125J"<This block of commented-out lines of code should be removed.(±ä›Ñûÿÿÿÿ
+V	java:S1254"<This block of commented-out lines of code should be removed.(Ñè´¯ÿÿÿÿÿ
+Q
+java:S3740"/Provide the parametrized type for this generic.(¦ªÄ÷ùÿÿÿÿ8ÉÁŸ«.

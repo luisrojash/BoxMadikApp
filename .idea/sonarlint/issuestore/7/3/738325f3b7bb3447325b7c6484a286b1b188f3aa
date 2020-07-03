@@ -1,0 +1,11 @@
+
+=
+java:S1172ª"&Remove these unused method parameters.(ù’ÿÓ
+b
+java:S1301Ê"KReplace this "switch" statement by "if" statements to increase readability.(¦¦¢†
+?
+java:S1172¥"(Remove this unused method parameter "i".(ù’ÿÓ
+8	java:S131Ê""Add a default case to this switch.(¦¦¢†
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œÈÏşÿÿÿÿ
+W	java:S125–"<This block of commented-out lines of code should be removed.(£ÔÄˆşÿÿÿÿ
+V	java:S125v"<This block of commented-out lines of code should be removed.(‰ÂÁÑÿÿÿÿÿ

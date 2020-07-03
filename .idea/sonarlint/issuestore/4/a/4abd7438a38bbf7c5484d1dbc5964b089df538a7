@@ -1,0 +1,131 @@
+
+g
+java:S1301»"KReplace this "switch" statement by "if" statements to increase readability.(ş¿ÎŠıÿÿÿÿ
+b
+java:S1301µ"KReplace this "switch" statement by "if" statements to increase readability.(¸«İ«
+}
+java:S1192‘"aDefine a constant instead of duplicating this literal " ESTADO_ESPECIALISTA_NO_ACEPTADO" 4 times.(‚§ÌÆúÿÿÿÿ
+ƒ
+java:S1192d"hDefine a constant instead of duplicating this literal " ESTADO_ESPECIALISTA_PENDIENTE_ENVIADOS" 3 times.(ªÊÓ•ıÿÿÿÿ
+b
+java:S1192ˆ"KDefine a constant instead of duplicating this literal "mensaje : " 3 times.(÷ÃÖú
+j
+java:S1192‡"TDefine a constant instead of duplicating this literal "Ocurrio Algun Error" 3 times.(±¶Ëg
+z
+java:S1192²"cDefine a constant instead of duplicating this literal "No se puede - Cotizacion Pendiente" 3 times.(„Èşª
+u
+java:S1192`"_Define a constant instead of duplicating this literal " ESTADO_ESPECIALISTA_REVOCADOS" 3 times.(ó™æö
+y
+java:S1192q"^Define a constant instead of duplicating this literal " ESTADO_ESPECIALISTA_ACEPTADO" 4 times.(Ù¬Ãİıÿÿÿÿ
+}
+java:S1192Ò"aDefine a constant instead of duplicating this literal "PROPUESTA_ESTADO_CLIENTE_PROCESO" 3 times.(²ªÃıÿÿÿÿ
+f	java:S117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â‹•	
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öÅ’Y
+F
+java:S5411Ê"*Use the primitive boolean expression here.(êéùÿÿÿÿÿ
+A
+java:S5411‰"*Use the primitive boolean expression here.(ñÛœá
+F
+java:S5411„"*Use the primitive boolean expression here.(÷Ëİàÿÿÿÿÿ
+F
+java:S5411Ù"*Use the primitive boolean expression here.(Ü…ıÿÿÿÿ
+F
+java:S5411‹"*Use the primitive boolean expression here.(Ü…ıÿÿÿÿ
+[
+java:S2583†"DChange this condition so that it does not always evaluate to "false"(ŞûÆø
+S
+java:S2589²"7Remove this expression which always evaluates to "true"(Æ·÷ùÿÿÿÿ
+I
+java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ
+—
+java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±ëÑÀ
+m
+java:S3776\"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ëÎ„Âşÿÿÿÿ
+n
+java:S3776·"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(¥ğ×ãøÿÿÿÿ
+˜
+java:S1186ó"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŸÖµ¸
+2
+java:S3626Ø"Remove this redundant jump.(ûÁİ…
+2
+java:S3626å"Remove this redundant jump.(ûÁİ…
+2
+java:S3626ì"Remove this redundant jump.(ûÁİ…
+2
+java:S3626™"Remove this redundant jump.(ûÁİ…
+2
+java:S3626¦"Remove this redundant jump.(ûÁİ…
+=	java:S131»""Add a default case to this switch.(ş¿ÎŠıÿÿÿÿ
+=	java:S131Æ""Add a default case to this switch.(ş¿ÎŠıÿÿÿÿ
+L
+java:S1172û"5Remove this unused method parameter "cotizacionesUi".(Ñˆø
+`
+java:S1871˜"IThis case's code block is the same as the block for the case on line 392.(–¶ñº
+`
+java:S1871Œ"IThis case's code block is the same as the block for the case on line 392.(Ñçƒ
+_
+java:S1871"IThis case's code block is the same as the block for the case on line 392.(¥áøI
+e
+java:S1871”"IThis case's code block is the same as the block for the case on line 392.(ÓÀ³´ÿÿÿÿÿ
+=	java:S131‡""Add a default case to this switch.(½¥ôÿÿÿÿÿ
+[
+java:S1858£"D"getMessage" returns a string, there's no need to call "toString()".(ŠØê‡
+Y
+java:S1854·"BRemove this useless assignment to local variable "mensajeProceso".(œÄ²Õ
+Y
+java:S1854Ö"BRemove this useless assignment to local variable "mensajeProceso".(œÄ²Õ
+`
+java:S1871"IThis case's code block is the same as the block for the case on line 515.(Ñçƒ
+8	java:S131µ""Add a default case to this switch.(¸«İ«
+n
+java:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(¨™¸…ûÿÿÿÿ
+\
+java:S1117Í"@Rename "loginService" which hides the field declared at line 30.(œşÄÅıÿÿÿÿ
+2
+java:S3626à"Remove this redundant jump.(ûÁİ…
+`
+java:S1858÷"D"getMessage" returns a string, there's no need to call "toString()".(Ú¨Øˆùÿÿÿÿ
+i
+java:S3776š"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(¤õß·
+`
+java:S1871×"IThis case's code block is the same as the block for the case on line 712.(Éü
+8	java:S131Ç""Add a default case to this switch.(Áìó˜
+2
+java:S3626ğ"Remove this redundant jump.(ûÁİ…
+V	java:S125;"<This block of commented-out lines of code should be removed.(ğƒß‰ıÿÿÿÿ
+V	java:S125a"<This block of commented-out lines of code should be removed.(³ì ûşÿÿÿÿ
+V	java:S125e"<This block of commented-out lines of code should be removed.(Â»à¿üÿÿÿÿ
+Q	java:S125n"<This block of commented-out lines of code should be removed.(¹Åäâ
+V	java:S125r"<This block of commented-out lines of code should be removed.(Â»à¿üÿÿÿÿ
+W	java:S125‰"<This block of commented-out lines of code should be removed.(“æâÜüÿÿÿÿ
+W	java:S125’"<This block of commented-out lines of code should be removed.(İÈİ×øÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(”¨ˆßüÿÿÿÿ
+W	java:S125¤"<This block of commented-out lines of code should be removed.(¿ÔŞ®øÿÿÿÿ
+W	java:S125Å"<This block of commented-out lines of code should be removed.(õ©Óåüÿÿÿÿ
+W	java:S125Î"<This block of commented-out lines of code should be removed.(õ©Óåüÿÿÿÿ
+W	java:S125İ"<This block of commented-out lines of code should be removed.(õ©Óåüÿÿÿÿ
+R	java:S125ã"<This block of commented-out lines of code should be removed.(´¾Œ
+W	java:S125é"<This block of commented-out lines of code should be removed.(øñôÇüÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(Û›Š
+R	java:S125–"<This block of commented-out lines of code should be removed.(æŒóº
+R	java:S125"<This block of commented-out lines of code should be removed.(Û›Š
+R	java:S125¡"<This block of commented-out lines of code should be removed.(Û›Š
+W	java:S125¬"<This block of commented-out lines of code should be removed.(‘èæüÿÿÿÿ
+W	java:S125º"<This block of commented-out lines of code should be removed.(ğƒß‰ıÿÿÿÿ
+W	java:S125¾"<This block of commented-out lines of code should be removed.(Ç¿Á„úÿÿÿÿ
+R	java:S125Ë"<This block of commented-out lines of code should be removed.(Ñ«§Å
+Q	java:S125Î"<This block of commented-out lines of code should be removed.(·ÿş
+W	java:S125Ó"<This block of commented-out lines of code should be removed.(Â»à¿üÿÿÿÿ
+R	java:S125ë"<This block of commented-out lines of code should be removed.(âÛ™ò
+R	java:S125Š"<This block of commented-out lines of code should be removed.(ˆÍ’‚
+W	java:S125’"<This block of commented-out lines of code should be removed.(Ú·Å¼ùÿÿÿÿ
+W	java:S125–"<This block of commented-out lines of code should be removed.(Ú·Å¼ùÿÿÿÿ
+W	java:S125š"<This block of commented-out lines of code should be removed.(Ú·Å¼ùÿÿÿÿ
+W	java:S125º"<This block of commented-out lines of code should be removed.(…ÜÚÓşÿÿÿÿ
+R	java:S125ÿ"<This block of commented-out lines of code should be removed.(½çì
+R	java:S125è"<This block of commented-out lines of code should be removed.(¨ÍØğ
+Q	java:S125ì"<This block of commented-out lines of code should be removed.(€™À
+W	java:S125ã"<This block of commented-out lines of code should be removed.(íŠ’Ñøÿÿÿÿ
+R	java:S125ñ"<This block of commented-out lines of code should be removed.(Šİ¦Œ
+^
+java:S1144û"GRemove this unused private "initValidatePropuestaInicialActiva" method.(Ñˆø

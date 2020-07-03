@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.application.boxmadikv1"
+        minSdkVersion 21
+        targetSdkVersion 29
+        multiDexEnabled true
+        versionCode 7
+        versionName "1.1"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    //buildToolsVersion '27.0.3'
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.browser:browser:1.2.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'androidx.core:core:1.3.0'
+    implementation 'androidx.mediarouter:mediarouter:1.1.0'
+    implementation 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.browser:browser:1.2.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.test.espresso:espresso-idling-resource:3.1.0'
+    /*Butterknife*/
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+    /*Google Servicios*/
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    /*Glide*/
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    /*Retrofit*/
+    implementation 'com.squareup.retrofit2:retrofit:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.2.2'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
+    /*Gsson-Google*/
+    implementation 'com.google.code.gson:gson:2.8.6'
+    /*CircleImageView*/
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    /*Image Compressor*/
+    implementation 'me.shaohui.advancedluban:library:1.3.5'
+    implementation 'com.github.lovetuzitong:MultiImageSelector:1.2'
+    /*Permisos*/
+    implementation 'com.github.hotchemi:permissionsdispatcher:3.2.0'
+    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:3.2.0'
+    /*lottie*/
+    implementation 'com.airbnb.android:lottie:3.4.1'
+    /*fab*/
+    implementation 'com.github.clans:fab:1.6.4'
+    /*DBFLow*/
+    annotationProcessor 'com.github.Raizlabs.DBFlow:dbflow-processor:4.0.3'
+    implementation 'com.github.Raizlabs.DBFlow:dbflow-core:4.0.3'
+    implementation 'com.github.Raizlabs.DBFlow:dbflow:4.0.3'
+    /*textPassword*/
+    implementation 'com.github.scottyab:showhidepasswordedittext:0.8'
+    /*Croperr*/
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.+'
+    /*SeekBar*/
+    implementation 'org.adw.library:discrete-seekbar:1.0.1'
+    /*StackCardLayoutManager Recycler*/
+    implementation 'com.github.amyu:StackCardLayoutManager:1.0'
+    /*MultiDex*/
+    implementation 'androidx.multidex:multidex:2.0.1'
+    /*Firebase*/
+    implementation 'com.google.firebase:firebase-core:16.0.5'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    /*Notificaciones*/
+    implementation 'com.crowdfire.cfalertdialog:cfalertdialog:1.1.0'
+    /*Parceler*/
+    implementation 'org.parceler:parceler-api:1.1.12'
+    annotationProcessor 'org.parceler:parceler:1.1.12'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+/*ext { googlePlayServicesVersion = "15.0.1" }*/
+apply plugin: 'com.google.gms.google-services'
+

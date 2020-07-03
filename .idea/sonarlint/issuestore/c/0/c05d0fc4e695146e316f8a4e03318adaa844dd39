@@ -1,0 +1,16 @@
+
+W	java:S125±"<This block of commented-out lines of code should be removed.(ÃŸÊ‚üÿÿÿÿ
+R	java:S125Ş"<This block of commented-out lines of code should be removed.(ÃÒš£
+W	java:S125 "<This block of commented-out lines of code should be removed.(ŠÉÛîşÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öÅ’Y
+s
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "view".(¾æ¯ç
+?
+java:S1172®"(Remove this unused method parameter "i".(ù’ÿÓ
+W	java:S125¶"<This block of commented-out lines of code should be removed.(Ú¨¶£ùÿÿÿÿ
+W	java:S125í"<This block of commented-out lines of code should be removed.(ú¡Œ¨ÿÿÿÿÿ
+?	java:S131ç""Add a default case to this switch.(¦¦¢†8‘›¤›­.
+=
+java:S1172´"&Remove these unused method parameters.(ù’ÿÓ
+R	java:S125¨"<This block of commented-out lines of code should be removed.(ôÓÏ
+^	java:S125İ"<This block of commented-out lines of code should be removed.(Éóøÿÿÿÿ8İğ§›­.

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.application.boxmadikv1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS " />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions"></uses-permission>
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- This permissions are neccessary for broadcast receiver -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--android:icon="@mipmap/ic_boxmadick"-->
+    <application
+        android:name=".BoxMadikApp"
+        android:allowBackup="false"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/logo_oficial"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/logo_oficial"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
+
+        <activity
+            android:name=".main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".registraUser.RegistrarUserActivity"
+            android:label="Crear Cuenta"
+            android:parentActivityName=".login.LoginActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".seleccionUsuario.SeleccionUserActivity"
+            android:label="Cliente - Especialista"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".cliente.menu.MenuClienteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".especialista.menu.MenuEspecialistaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".splash.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".cliente.menu.crearPropuesta.RubrosActivity"
+            android:label="Selección Rubros - Oficios"
+            android:launchMode="singleTask"
+            android:parentActivityName=".cliente.menu.MenuClienteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".recuperarClave.RecuperarClaveActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cliente.menu.crearPropuesta.especialidades.EspecialidadActivity"
+            android:label="Especialidades Necesarias "
+            android:launchMode="singleTask"
+            android:parentActivityName=".cliente.menu.crearPropuesta.RubrosActivity"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+        <activity
+            android:name=".cliente.menu.crearPropuesta.atencion.AtencionActivity"
+            android:label="Atención Horarios "
+            android:launchMode="singleTask"
+
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cliente.menu.crearPropuesta.detalles.DetallesActivity"
+            android:label="Publicar Propuesta"
+            android:launchMode="singleTask"
+            android:parentActivityName=".cliente.menu.crearPropuesta.atencion.AtencionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".especialista.menu.seleccionRubros.SeleccionRubrosActivity"
+            android:label="Selección Rubros"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".seleccionUsuario.SeleccionUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".especialista.menu.buscarPropuesta.BuscarPropuestaActivity"
+            android:label="Buscar Propuesta"
+            android:parentActivityName=".especialista.menu.MenuEspecialistaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".especialista.menu.buscarPropuesta.rubroItem.RubroItemActivity"
+            android:label="Seleccion Rubros "
+            android:parentActivityName=".especialista.menu.buscarPropuesta.BuscarPropuestaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".especialista.menu.buscarPropuesta.fragment.perfilPropuesta.PerfilPropuestaActivity"
+
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+
+        <activity
+            android:name=".cliente.menu.detallesCotizacion.cotizacion.datosCotizacion.datosCotiza.terminos.TerminosCotizaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cliente.menu.detallesCotizacion.cotizacion.datosCotizacion.datosCotiza.terminos.TerminosRevocacionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cliente.menu.detallesCotizacion.DetallesCotizacionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".cliente.menu.clientePerfil.ClientePerfilActivity"
+            android:label="Perfil del Cliente"
+            android:launchMode="singleTask"
+            android:parentActivityName=".cliente.menu.MenuClienteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".cliente.menu.clientePerfil.clientePerfilEditar.ClientePerfilEditActivity"
+            android:label="Editar Datos"
+            android:launchMode="singleTask"
+            android:parentActivityName=".cliente.menu.clientePerfil.ClientePerfilActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".cliente.menu.clientePerfil.clientePerfilEditar.clientePerfilDireccion.ClientPerfilDirectionActivity"
+            android:label="Zona Residencia"
+            android:launchMode="singleTask"
+            android:parentActivityName=".cliente.menu.clientePerfil.clientePerfilEditar.ClientePerfilEditActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".cliente.menu.clientePerfil.clientePerfilEditar.clientePerfilCuentaBancaria.ClientePerfilCuentaBancariaActivity"
+            android:label="Editar Cuenta Bancaria"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".especialista.menu.buscarPropuesta.fragment.perfilPropuesta.descripcion.revocacion.RevocacionActivity"
+            android:label="Revocar Cliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cliente.menu.detallesCotizacion.cotizacion.datosCotizacion.DatosCotizacionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cliente.menu.detallesCotizacion.cotizacion.datosCotizacion.datosCotiza.reporte.ReportePagoActivity"
+            android:label="Terminos del Servicio"
+            android:screenOrientation="portrait" />
+        <!--android:parentActivityName=".cliente.menu.detallesCotizacion.cotizacion.datosCotizacion.datosCotiza.terminos.TerminosCotizaActivity" />-->
+
+        <activity
+            android:name=".cliente.menu.detallesCotizacion.cotizacion.datosCotizacion.datosCotiza.revocacion.RevocacionActivity"
+            android:label="Revocar Especialista"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".cliente.menu.detallesCotizacion.cotizacion.datosCotizacion.datosCotiza.desembolsar.DesembolsarActivity"
+            android:label="Califica Especialista"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".cliente.menu.detallesCotizacion.cotizacion.datosCotizacion.datosCotiza.culqui.CulquiActivity"
+            android:label="Pasarela de Pagos"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAhNreIYZwL9zQTohq9_raAZLNQpv4Ccos" />
+
+        <activity
+            android:name=".maps.MapsActivity"
+            android:label="@string/title_activity_maps"/>
+
+
+        <activity android:name=".test.TestActivity">
+
+        </activity>
+
+        <activity
+            android:name=".especialista.menu.especialistaPerfil.EspecialistaPerfilActivity"
+            android:label="Perfil del Especialista"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".especialista.menu.especialistaPerfil.especialistaEditarPerfil.EspecEditarPerfilActivity"
+            android:label="Editar Perfil"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".especialista.menu.especialistaPerfil.especialistaEditarPerfil.direccion.EspecPerfilDireccionActivity"
+            android:label="Ingresar Dirección"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".especialista.menu.especialistaPerfil.especialistaEditarPerfil.direccion.especialistaPerfilDistrito.EspecialistaPerfilDistritoActivity"
+            android:label="Zona de Trabajos"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".especialista.menu.especialistaPerfil.especialistaEditarPerfil.presentacion.PresentacionPerfilActivity"
+            android:label="Presentación"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".especialista.menu.especialistaPerfil.especialistaEditarPerfil.estudio.EstudioPerfilActivity"
+            android:label="Centro Estudios "
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".especialista.menu.edicionDatos.DatosEspecActivity"
+            android:label="Edición Datos"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".registraUser.terminos.RegistroTerminosActivity"
+            android:label="Terminos"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".especialista.menu.especialistaPerfil.especialistaEditarPerfil.banco.EspecBancoActivity"
+            android:label="Centro Bancario"
+
+            android:screenOrientation="portrait">
+
+
+        </activity>
+
+        <activity
+            android:name=".cliente.menu.clientePerfil.edicionDatos.CliEdicionDatosActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".notificaciones.cliente.ClienteNotiActivity"
+            android:label="Notificacion Cliente"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".notificaciones.especialista.EspecialistaNotiActivity"
+            android:label="Notificacion Especialista"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".rptRevocacion.RespuestaRevocacionActivity"
+            android:label="Respuesta del Revocado"
+            android:screenOrientation="portrait" />
+
+
+        <service
+            android:name=".service.MyFirebaseInstanceIDService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".chat.ChatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".cambiarClave.CambiarClaveActivity"
+            android:label="Cambiar Clave"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".especialista.menu.buscarPropuesta.fragment.perfilPropuesta.perfilcliente.calificar.CalificarClienteActivity"
+            android:label="Calificar Cliente"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name=".bandeja.BandejaActivity"
+            android:label="Bandeja Mensaje"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".especialista.menu.reportes.ReportesActivity"
+            android:label="Resportes"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".cliente.menu.detallesCotizacion.cotizacion.datosCotizacion.datosPerfilEspecialista.calificacion.CalificacionActivity"
+            android:label="Calificacion Especialista"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".especialista.menu.buscarPropuesta.fragment.perfilPropuesta.descripcion.revoca.RevocaActivity"
+            android:label="Revocacion Cliente"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".cliente.menu.tipopago.TipoPagoActivity"
+            android:label="Pasarela de Pagos"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".cliente.menu.tipopago.reportepago.ReportePagoActivity"
+            android:label="Reporte de Pagos"
+            android:screenOrientation="portrait"/>
+
+
+    </application>
+
+</manifest>

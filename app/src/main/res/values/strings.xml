@@ -1,0 +1,380 @@
+<resources>
+    <string name="app_name">BoxMadik</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="cerrar_sesion">Cerar Sesión</string>
+    <string name="create_account">Crear Cuenta</string>
+
+    <string name="forgot">¿Olvidaste tu contraseña?</string>
+    <string name="pass_confirmation">Confirmar Password</string>
+    <string name="phone">Cell</string>
+    <string name="search">Buscar propuesta...</string>
+    <string name="search_especiality">Buscar cotizacion...</string>
+    <string name="error_autentication">Usuario o contraseña incorrecta</string>
+
+    <!--<string name="terminos">El respeto a tu privacidad forma parte de nuestro ADN.-->
+        <!--Desde que empezamos WhatsApp, aspiramos a desarrollar nuestros servicios-->
+        <!--teniendo en mente un conjunto de principios de privacidad sólidos.WhatsApp provee mensajería,-->
+        <!--llamadas por internet y otros servicios a usuarios alrededor del mundo. Nuestra Política de-->
+        <!--privacidad ayuda a explicar nuestras prácticas de información (incluidos los mensajes).-->
+        <!--Por ejemplo, hablamos sobre la información que recopilamos y cómo te afecta esto. También-->
+        <!--explicamos las medidas que adoptamos para proteger tu privacidad, como desarrollar-->
+        <!--WhatsApp para que los mensajes entregados no se almacenen y darte el control sobre-->
+        <!--con quién te comunicas en nuestros servicios.-->
+    <!--El respeto a tu privacidad forma parte de nuestro ADN.-->
+        <!--Desde que empezamos WhatsApp, aspiramos a desarrollar nuestros servicios-->
+        <!--teniendo en mente un conjunto de principios de privacidad sólidos.WhatsApp provee mensajería,-->
+        <!--llamadas por internet y otros servicios a usuarios alrededor del mundo. Nuestra Política de-->
+        <!--privacidad ayuda a explicar nuestras prácticas de información (incluidos los mensajes).-->
+        <!--Por ejemplo, hablamos sobre la información que recopilamos y cómo te afecta esto. También-->
+        <!--explicamos las medidas que adoptamos para proteger tu privacidad, como desarrollar-->
+        <!--WhatsApp para que los mensajes entregados no se almacenen y darte el control sobre-->
+        <!--con quién te comunicas en nuestros servicios.El respeto a tu privacidad forma parte de nuestro ADN.-->
+        <!--Desde que empezamos WhatsApp, aspiramos a desarrollar nuestros servicios-->
+        <!--teniendo en mente un conjunto de principios de privacidad sólidos.WhatsApp provee mensajería,-->
+        <!--llamadas por internet y otros servicios a usuarios alrededor del mundo. Nuestra Política de-->
+        <!--privacidad ayuda a explicar nuestras prácticas de información (incluidos los mensajes).-->
+        <!--Por ejemplo, hablamos sobre la información que recopilamos y cómo te afecta esto. También-->
+        <!--explicamos las medidas que adoptamos para proteger tu privacidad, como desarrollar-->
+        <!--WhatsApp para que los mensajes entregados no se almacenen y darte el control sobre-->
+        <!--con quién te comunicas en nuestros servicios.</string>-->
+
+    <string name="terminos">
+        1.      RELACIÓN CONTRACTUAL \n
+
+Estos términos de uso (“Términos”) constituyen un acuerdo legal entre personas que desean contratar Servicios Generales (“Clientes”) y BoxMadik SAC, una compañía de responsabilidad limitada constituida en Perú, y los proveedores de Servicios Generales a los Clientes. (“Especialistas”) y BoxMadik. Estos Términos rigen su uso de nuestra plataforma de servicios que facilita las comunicaciones entre Clientes y Especialistas y se ofrece a través de nuestro sitio web ubicado en www.BoxMadik.com, según pueda ser modificado, reubicado y/o redirigido oportunamente, y las aplicaciones móviles que ofrecemos. Nuestros servicios, plataforma, sitio web y aplicaciones móviles son denominados colectivamente el “Sitio de BoxMadik”. Los términos “usted”, “su” o “sus” hacen referencia al Cliente o Especialista según corresponda.
+
+LEA ESTOS TÉRMINOS ATENTAMENTE ANTES DE ACCEDER A LOS SERVICIOS O UTILIZARLOS. En estos Términos, los términos “incluido/a(s)” e “incluir” significan “incluidos, a título enunciativo y no taxativo”.
+
+Su acceso y el uso que haga del Sitio de BoxMadik constituyen su aceptación de quedar obligado por estos Términos, que establecen una relación contractual entre usted y BoxMadik. Si no acepta estos Términos, no podrá acceder al Sitio de BoxMadik ni utilizarlo. Estos Términos reemplazan expresamente contratos o acuerdos anteriores celebrados con usted. BoxMadik podrá cancelar inmediatamente estos Términos con respecto a usted, o en general dejar de ofrecer o negar acceso al Sitio de BoxMadik o a cualquiera de sus partes, en cualquier momento y por cualquier motivo.
+
+BoxMadik podrá modificar los Términos relacionados con el Sitio de BoxMadik oportunamente. Las modificaciones tendrán validez al momento de la publicación por parte de BoxMadik de los Términos actualizados en esta ubicación o de las políticas modificadas o los términos complementarios del (de los) servicio(s) correspondiente(s). Su acceso o uso continuo del Sitio de BoxMadik luego de esta publicación constituye su consentimiento para estar obligado por los Términos y sus modificaciones:
+
+•	Su aceptación de que el Sitio de BoxMadik se ofrece “en el estado en que se encuentra” y sin ninguna garantía (Sección 6.A).
+
+•	Su aceptación de que el Sitio de BoxMadik es únicamente una plataforma de comunicaciones que ofrece un método para la contratación de Servicios Generales, que todos los Servicios Generales son realizados por terceros y que BoxMadik no tiene responsabilidad alguna por los Servicios Generales o por los actos u omisiones de terceros (Sección 2.A).
+
+•	Su aceptación de liberar a BoxMadik de toda responsabilidad que surja de reclamaciones relacionadas con el Sitio de BoxMadik o de otro modo (Sección 6.B).
+
+•	Su aceptación de mantener indemne a BoxMadik de reclamaciones que surjan de su uso, uso indebido o incapacidad para utilizar el Sitio de BoxMadik o los Servicios Generales, su incumplimiento de este Acuerdo, leyes aplicables o derechos de terceros, y/o el contenido o la información enviada desde su cuenta al Sitio de BoxMadik (Sección 6.C).
+
+•	Su consentimiento de que cualquiera de las partes tiene derecho a recurrir a arbitraje vinculante (Sección 7.B).
+
+•	Su aceptación de que ninguna reclamación podrá juzgarse como demanda colectiva (Sección 7.A).
+
+•	Su consentimiento con respecto a la recolección, utilización, divulgación y transferencia de sus datos conforme se indica en la Política de Privacidad, con sus oportunas modificaciones.\n
+
+2.      LOS SERVICIOS \n
+
+a.    LA APLICACIÓN ES ÚNICAMENTE UN ESPACIO. \n
+
+El Sitio de BoxMadik es un mercado informático donde Clientes y Especialistas pueden identificarse y comprar y vender servicios en línea. Estos servicios específicos solicitados por Cleintes, que deben realizar los Especialistas, se denominan, en adelante, “Servicios Generales”. De conformidad con los términos de este Acuerdo, BoxMadik ofrece servicios a Cleintes y Especialistas, incluido el hosting y el mantenimiento del Sitio de BoxMadik, y permite la celebración de Contratos entre Clientes. Cuando un Cliente y un Especialista celebran un Contrato entre Usuarios de conformidad con la subsección B a continuación, el Cliente y el Especialista utilizan el Sitio de BoxMadik para comprometerse, comunicarse, facturar y pagar en línea.
+
+A menos que BoxMadik indique lo contrario en un acuerdo escrito por separado con usted, el Sitio de BoxMadik se pone a disposición únicamente para su uso personal y no comercial. BoxMadik no presta Servicios Generales por sí misma. La prestación de todos los Servicios Generales depende de los Especialistas. BOXMADIK, A TRAVÉS DE LA APLICACIÓN DE BOXMADIK, OFRECE INFORMACIÓN Y UN MÉTODO PARA OBTENER ESTOS SERVICIOS GENERALES, PERO NO BRINDA NI PRETENDE BRINDAR DICHOS SERVICIOS GENERALES, Y NO TIENE RESPONSABILIDAD ALGUNA POR LOS SERVICIOS GENERALES Y/O EL PRODUCTO DE TRABAJO QUE LE ENTREGUEN LOS ESPECIALISTAS, INCLUIDAS, A TÍTULO ENUNCIATIVO Y NO TAXATIVO, LAS GARANTÍAS DE IDONEIDAD PARA UN FIN DETERMINADO O CUMPLIMIENTO DE LEYES, REGLAMENTACIONES O CÓDIGOS. BOXMADIK NO ESTÁ AFILIADA, RESPALDADA NI PATROCINADA POR NINGÚN PROVEEDOR EXTERNO.
+
+b.     SERVICIOS ENTRE USUARIOS. \n
+
+Al momento de adjudicación de un proyecto o concurso por parte del Cliente a un Especialista y la aceptación del Especialista en el Sitio de BoxMadik, o la compra de un artículo del Especialista por parte de un Cliente, se considerará que el Cliente y el Especialista han celebrado un contrato (el “Contrato entre Usuarios”), en virtud del cual el Cliente acepta comprar y el Especialista acepta realizar y entregar los Servicios Generales. El Cliente y el Especialista pueden celebrar un acuerdo entre ellos aparte de estos Términos, siempre que usted acepte no celebrar ninguna disposición contractual contradictoria con estos Términos.
+Usted es el exclusivo responsable de asegurarse de cumplir con sus obligaciones frente a los Especialistas. Si no lo hace, es posible que sea responsable ante el Especialista en cuestión. Debe asegurarse de conocer todas las leyes nacionales, leyes internacionales, normas, ordenanzas y reglamentaciones relativas a usted como Cliente o a cualquier otro uso que haga del Sitio de BoxMadik.
+Si un Especialista no cumple con alguna obligación frente a usted, o causa daños a usted, a su propiedad o a sus derechos, usted es el único responsable de ejercer los derechos que pudiera tener. Para evitar cualquier duda, nosotros no tenemos ninguna responsabilidad de ejercer derechos en virtud de un Contrato entre Usuarios o ante daños a su persona, su propiedad o sus derechos causados por un Especialista.
+En función de su jurisdicción, los Clientes y Especialistas pueden tener derechos en virtud de garantías legales que no pueden excluirse legalmente. Ninguno de estos Términos pretende invalidar los derechos que no puedan ser excluidos según la legislación aplicable.
+Cada Cliente y Especialista reconoce y acepta que la relación entre el Cliente y cualquier Especialista corresponde a la de un contratista independiente. Ninguna de las disposiciones de estos Términos crea una asociación, empresa conjunta, agencia o relación de empleo entre Clientes y Especialistas. Ninguna de las disposiciones de estos Términos deberá ser interpretada como si constituyera una empresa conjunta, una asociación o una relación empleador-empleado entre BoxMadik y algún Usuario o Freelancer.
+
+
+
+c.    Entregas del Cliente. \n
+
+El Cliente otorga al Especialista un derecho limitado, no exclusivo y revocable (en cualquier momento a la exclusiva discreción del Cliente) para utilizar las Entregas del Cliente según sea necesario para la prestación de los Servicios. El Cliente se reserva todo otro derecho e interés, incluidos, a título enunciativo y no taxativo, todos los derechos de propiedad intelectual, con respecto a las Entregas del Cliente. Al momento del cumplimiento o la extinción del Contrato de Servicios, o previa solicitud escrita por parte del Cliente, el Especialista deberá devolver inmediatamente todas las Entregas, herramientas u otros del Cliente al Cliente y asimismo se compromete a eliminar según tipo de servicios todas las copias de las Entregas del Cliente y el Producto de Trabajo que se encuentren en las instalaciones, sistemas u otros equipos del Especialista o de otra manera bajo dominio del Especialista. El Especialista acepta brindar una certificación escrita al Cliente que certifique la devolución o eliminación de las Entregas, herramientas u otros del Cliente dentro de los siete (7) días de haber recibido la solicitud escrita de certificación por parte del Cliente.
+
+d.    Producto de Trabajo. \n
+
+Todo trabajo por encargo que pueda estar sujeto a derechos de autor realizado por el Especialista en relación con un contrato a precio fijo para el Cliente será propiedad del Especialista hasta que el Cliente haya realizado el pago y el Especialista lo haya aceptado. Si el Cliente paga un monto inferior al monto acordado en el Contrato de Servicios, el Especialista podrá reembolsar el monto pagado dentro de las dos (2) semanas de la fecha de pago y conservar su propiedad sobre el Producto de Trabajo.
+
+En el caso de que los derechos de propiedad intelectual no pudieran cederse en virtud de la legislación aplicable, el Especialista, por medio del presente, acepta irrevocablemente otorgar y, por medio del presente, otorga al Cliente una licencia exclusiva (que también excluye al Especialista), perpetua, irrevocable, ilimitada, mundial, totalmente pagada e incondicional para utilizar y comercializar el Producto de Trabajo de cualquier manera conocida actualmente o descubierta en el futuro. En el caso de que el otorgamiento de la licencia no fuera plenamente válido, eficaz o aplicable en virtud de la legislación aplicable, el Especialista, por medio del presente, acepta irrevocablemente otorgar y, por medio del presente, otorga al Cliente los derechos que el Cliente solicite razonablemente con el fin de adquirir, en tanto sea posible, todos los derechos equivalentes a la propiedad legal total. A fin de garantizar que el Cliente podrá adquirir, formalizar y utilizar estos derechos de propiedad intelectual, el Especialista: (i) transferirá el dominio, la propiedad y la titularidad sobre medios, modelos y otros objetos tangibles que contengan el Producto de Trabajo al Cliente; (ii) firmará cualquier documento, previa solicitud del Cliente, para asistir al Cliente con la documentación, formalización y aplicación de sus derechos; y (iii) ofrecerá al Cliente asistencia y acceso razonable a la información para registrar, formalizar, asegurar, defender y ejercer estos derechos de propiedad intelectual. El Especialista también autoriza irrevocablemente al Cliente a actuar y firmar en nombre del Especialista y a tomar cualquier medida necesaria a fin de formalizar los derechos del Cliente en virtud de este Acuerdo. En el caso de que, en virtud de la legislación aplicable, el Especialista conservara algún derecho de paternidad, integridad, divulgación y retiro de la obra, y cualquier otro derecho que pudiera conocerse o al que pudiera referirse como “derecho moral” (colectivamente, “Derechos Morales”) u otros derechos inalienables sobre el Producto de Trabajo o Información Confidencial en virtud de este Acuerdo, el Especialista acepta irrevocablemente renunciar y, por medio del presente, renuncia a todos estos derechos o, en el caso de que el Especialista no pudiera renunciar a tales derechos, el Especialista  acepta que no ejercerá dichos derechos, hasta que el Especialista haya proporcionado una notificación previa por escrito al Cliente y, posteriormente, únicamente de conformidad con cualquier instrucción razonable que el Cliente emita con el fin de proteger sus derechos.
+El Especialista deberá asegurarse de que ningún Producto de Trabajo creado o enviado por el Especialista incluya software, tecnología u otro tipo de propiedad intelectual preexistente, ya sea que dicha propiedad intelectual preexistente sea propiedad del Especialista o de un tercero, incluido, a título enunciativo y no taxativo, el código escrito por compañías de software de propiedad exclusiva o desarrolladores en la comunidad de código abierto (colectivamente, “PI Preexistente”), sin haber obtenido el consentimiento previo por escrito del Cliente para incluir dicha PI Preexistente en el Producto de Trabajo. El Especialista reconoce que, sin perjuicio de cualquier otro recurso que pudiera tener, el Especialista no tendrá derecho al pago, y deberá reembolsar todos los pagos realizados al Especialista, por los Servicios realizados en virtud de un Contrato si el Producto de Trabajo contiene PI Preexistente que no fue aprobada de conformidad con esta Sección.
+
+e.     VETO DE USUARIOS. \n
+
+Los Especialistas pueden estar sujetos a un proceso de veto antes de poder registrarse y durante el uso que hagan del Sitio de BoxMadik. Si bien BoxMadik puede realizar verificaciones de antecedentes de los Especialistas, BoxMadik no puede confirmar que cada Especialista sea quien declara ser y, por lo tanto, BoxMadik no puede asumir ni asume ninguna responsabilidad por la precisión o la veracidad de la identidad, la información de la verificación de antecedentes o la información proporcionada a través del Sitio de BoxMadik.
+
+AL UTILIZAR LA APLICACIÓN DE BOXMADIK, USTED ACEPTA LIBERAR A BOXMADIK DE TODA RESPONSABILIDAD O DAÑO QUE PUDIERA SURGIR A PARTIR DE LOS SERVICIOS PROFESIONALES. BOXMADIK NO ES RESPONSABLE DE LA CONDUCTA, YA SEA EN LÍNEA, EN EL PUNTO DE LA EJECUCION DEL SERVICIO O DE MANERA ABIERTA FUERA DE LINEA, DE NINGÚN USUARIO, INCLUIDOS LOS PROVEEDORES EXTERNOS, Y NO SERÁ RESPONSABLE DE NINGUNA RECLAMACIÓN, LESIÓN O DAÑO QUE SURJA EN RELACIÓN CON LOS SERVICIOS GENERALES.
+
+f.     LICENCIA. \n
+
+Sujeto a su cumplimiento de estos Términos, BoxMadik le otorga una licencia limitada, no exclusiva, no sublicenciable, revocable e intransferible para: (i) acceder y utilizar el Sitio de BoxMadik en su dispositivo personal únicamente en relación con su uso del Sitio de BoxMadik; y (ii) acceder y utilizar cualquier contenido, información y materiales relacionados que pudieran estar disponibles a través del Sitio de BoxMadik, en cada caso únicamente para su uso personal y no comercial. BoxMadik y los licenciantes de BoxMadik se reservan todos los derechos que no se otorguen expresamente en el presente.
+
+g.    RESTRICCIONES. \n
+
+Usted no podrá: (i) eliminar avisos de derechos de autor o marcas comerciales u otro aviso de propiedad intelectual de ninguna parte del Sitio de BoxMadik; (ii) reproducir, modificar, crear obras derivadas, distribuir, licenciar, alquilar, vender, revender, transferir, mostrar públicamente, presentar públicamente, transmitir, publicar, difundir o explotar de cualquier otra manera el Sitio de BoxMadik, excepto según lo permitido expresamente por BoxMadik; (iii) descompilar, realizar ingeniería inversa o desarticular el Sitio de BoxMadik, excepto según lo permitido por la legislación aplicable; (iv) vincular, duplicar o utilizar marcos en ninguna parte del Sitio de BoxMadik; (v) introducir o implementar programas o secuencias de comandos con el fin de extraer información, indexar, escudriñar o de otro modo realizar minería de datos en ninguna parte del Sitio de BoxMadik, o dificultar o impedir indebidamente la operación y/o funcionalidad de cualquier aspecto del Sitio de BoxMadik; ni (vi) intentar obtener acceso no autorizado o afectar cualquier aspecto del Sitio de BoxMadik o sus sistemas o redes relacionados.
+
+h.    SERVICIOS Y CONTENIDO DE TERCEROS. \n
+
+Es posible que pueda accederse al Sitio de BoxMadik o que el Sitio esté disponible en relación con servicios y contenido de terceros (publicidad incluida) que BoxMadik no controla. Usted reconoce que pueden aplicarse otros términos de uso y políticas de privacidad al uso que haga de los servicios y el contenido de terceros. BoxMadik no respalda los servicios ni el contenido de terceros y en ningún caso será responsable de los servicios, productos o entregables de estos Especialistas.
+
+i.       PROPIEDAD. \n
+
+El Sitio de BoxMadik y todos los derechos establecidos allí son y seguirán siendo propiedad de BoxMadik o de los licenciantes de BoxMadik. Ni estos Términos ni el uso que haga del Sitio de BoxMadik le transferirán u otorgarán derechos: (i) sobre el Sitio de BoxMadik o relacionados con él, excepto la licencia limitada otorgada anteriormente; ni (ii) a utilizar o hacer referencia de alguna manera a los nombres de la compañía, logotipos, nombres de productos y servicios, marcas comerciales o marcas de servicios de BoxMadik o los licenciantes de BoxMadik.
+
+3.      SU USO DE LOS SERVICIOS \n
+
+a.    CUENTAS. \n
+
+Para poder utilizar la mayor parte de los aspectos del Sitio de BoxMadik, debe registrarse y mantener una cuenta personal y activa de servicios para Usuarios (“Cuenta”). Debe tener al menos 18 años de edad, o haber alcanzado la mayoría de edad legal en su jurisdicción (si esta no fuera los 18 años), para obtener una cuenta. El registro de la cuenta requiere que usted envíe determinada información personal a BoxMadik, como su nombre, dirección, número de teléfono celular y edad, así como también al menos un método de pago válido (una tarjeta de crédito o bien un proveedor de pagos aceptado). Usted acepta mantener información exacta, completa y actualizada en su Cuenta. La falta de mantenimiento de información de Cuenta exacta, completa y actualizada, lo que incluye contar con un método de pago inválido o vencido registrado, puede dar lugar a su inhabilitación para acceder y utilizar el Sitio de BoxMadik o a la rescisión de este Acuerdo con usted por parte de BoxMadik. Usted es responsable de toda la actividad que tenga lugar en su Cuenta, y acepta mantener la seguridad y confidencialidad del nombre de usuario y la contraseña de su Cuenta en todo momento. A menos que BoxMadik permita lo contrario por escrito, usted solo puede tener una Cuenta. Los perfiles de los Especialistas deben reflejar en forma precisa la experiencia, las especialidades y la información personal del Especialista.
+
+b.     REQUISITOS Y CONDUCTA DEL USUARIO. \n
+
+El Servicio no está disponible para ser utilizado por personas menores de 18 años. Usted no puede autorizar a terceros a utilizar su Cuenta, y no puede permitir que personas menores de 18 años reciban u ofrezcan Servicios Generales a menos que estén en compañía suya. Usted no puede ceder ni transferir de alguna otra manera su Cuenta a ninguna persona o entidad. Usted acepta cumplir con todas las leyes aplicables al utilizar el Sitio de BoxMadik (incluidas, a título enunciativo y no taxativo, todas las leyes laborales aplicables), y solo podrá utilizar el Sitio de BoxMadik con fines lícitos (p. ej., no se puede utilizar para realizar servicios peligrosos, ilícitos y que atenten contra la integridad y la salud  de las personasy tampoco con sus bienes). Durante el uso que haga del Sitio de BoxMadik, no causará problemas, molestias, inconvenientes ni daños a la propiedad, ya sea con respecto a los Especialistas o a cualquier otra parte. En algunos casos, es posible que se le solicite que brinde una prueba de su identidad para acceder o utilizar el Sitio de BoxMadik, y usted acepta que se le negará el acceso o el uso del Sitio de BoxMadik si se rehúsa a proporcionar una prueba de su identidad.
+
+c.    USO ACEPTABLE. \n
+
+Durante la vigencia de este Acuerdo, usted podrá utilizar el Sitio de BoxMadik para su uso personal únicamente (o para el uso de una persona, incluso una compañía u otra organización, a la que represente válidamente). Usted podrá utilizar el Sitio de BoxMadik para contratar Servicios Generales únicamente con respecto a la ubicación en donde se encuentra legalmente autorizado para recibir u ofrecer Servicios Generales. Usted no podrá utilizar el Sitio de BoxMadik para ningún otro fin o en relación con cualquier otra actividad comercial sin nuestro consentimiento expreso previo por escrito. Usted no podrá utilizar el Sitio de BoxMadik en violación de leyes, normas, ordenanzas o reglamentaciones. Usted acepta que una solicitud de Servicios Generales constituye una oferta, que se considera aceptada únicamente cuando recibe una confirmación de la solicitud. Usted acepta que tratará a los Especialistas de manera cortés y legal, y que cooperará razonablemente con los Especialistas para permitir que brinden los Servicios Generales. Los Especialistas aceptan que brindarán los Servicios Generales una vez que hayan aceptado una solicitud de manera profesional y con garantía de calidad, y que prestarán estos servicios de manera cortés y legal y haciendo el mejor uso de sus habilidades, y que aceptarán las solicitudes únicamente si el Especialista está calificado y es capaz de realizar tales Servicios Generales.
+
+El Sitio de BoxMadik puede contener perfiles, sistemas de correo electrónico, blogs, carteleras de mensajes, solicitudes, anuncios de trabajos, áreas de chat, grupos de noticias, foros, comunidades y/o otros espacios para mensajes o comunicaciones (“Áreas de la Comunidad”) que le permiten comunicarse con otros usuarios. Usted puede utilizar estas áreas de la comunidad únicamente para enviar y recibir mensajes y materiales que sean pertinentes y apropiados en función de cada foro en particular. Usted NO deberá usar el Sitio de BoxMadik (incluida, a título enunciativo y no taxativo, cualquier Área de la Comunidad) para hacer lo siguiente:
+
+•	Difamar, abusar, acosar, acechar, amenazar o violar de otra manera derechos legales (como por ejemplo, los derechos de privacidad y publicidad, entre otros) de otras personas, incluido el personal de BoxMadik. \n
+
+•	Publicar, anunciar, subir, distribuir o diseminar tópicos, nombres, materiales o información indecentes, difamatorios, transgresores, obscenos o ilegales, ni materiales, información o contenido que involucren la venta de artículos varios, falsificados o robados. \n
+
+•	Utilizar el Sitio de BoxMadik o los Servicios Generales para cualquier fin o de cualquier manera que viole la legislación local, estatal, nacional o internacional. \n
+
+•	Subir archivos imágenes u otro material que viole derechos de propiedad intelectual y en contra el pudor de las personas (o derechos de privacidad o publicidad) de terceros. \n
+
+•	Subir archivos que contengan virus, troyanos, archivos corruptos o cualquier otro software similar que pudiera dañar la operación de una computadora ajena. \n
+
+•	Publicar u subir contenido respecto del cual no ha obtenido los derechos o permisos necesarios para utilizarlo en consecuencia. \n
+
+•	Publicitar u ofrecer a la venta cualquier producto o servicio con fines comerciales a través del Sitio de BoxMadik que no correspondan a los servicios ofrecidos a través del Sitio de BoxMadik. \n
+
+•	Realizar o enviar encuestas, certámenes, esquemas piramidales o cartas de cadena. \n
+
+•	Hacerse pasar por otra persona o usuario o permitir que otra persona o entidad utilice su identidad para publicar o ver comentarios o utilizar de otra manera su cuenta. \n
+
+•	Publicar la misma propuesta o servicio en forma reiterada (mensajes basura o “Spam”). El envío de Spam está estrictamente prohibido. \n
+
+•	Restringir o inhibir a otros usuarios para que no puedan utilizar y disfrutar de las Áreas de la Comunidad. \n
+
+•	Insinuar o afirmar que las declaraciones que usted hace están respaldadas por BoxMadik, sin el consentimiento previo por escrito de BoxMadik. \n
+
+•	Utilizar un robot, araña web, procesos manuales y/o automáticos o dispositivos para realizar minería de datos, rastreos, extraer información o indexar el Sitio de BoxMadik de alguna manera. \n
+
+•	Hackear o interferir en el Sitio de BoxMadik, sus servidores o cualquier red conectada. \n
+
+•	Adaptar, alterar, licenciar, sublicenciar o traducir el Sitio de BoxMadik para su propio uso personal o comercial. \n
+
+•	Eliminar o alterar, visualmente o de otro modo, derechos de autor, marcas comerciales o marcas de propiedad exclusiva y derechos de propiedad  intelectual que son propiedad de BoxMadik. \n
+
+•	Subir contenido que sea ofensivo y/o dañino, incluido, a título enunciativo y no taxativo, contenido que defienda, respalde, apruebe o promueva el racismo, la intolerancia, el odio o el daño físico de cualquier clase contra individuos o grupos de individuos. \n
+
+•	Subir contenido que ofrezca materiales o acceso a materiales que explotan a personas menores de 18 años de manera abusiva, violenta o sexual. \n
+
+•	Utilizar el Sitio de BoxMadik para reclutar para otros negocios, sitios web o servicios, o contactar de otro modo a los usuarios para empleos, contrataciones u otros fines no relacionados con el uso del Sitio de BoxMadik según lo establecido en el presente. \n
+
+•	Utilizar el Sitio de BoxMadik para recopilar nombres de usuarios y/o direcciones de correo electrónico de usuarios por medios electrónicos o de otro tipo. \n
+
+•	Registrarse bajo otro nombre de usuario o identidad luego de que su cuenta haya sido cancelada o cerrada. \n
+
+Usted comprende que todas las publicaciones que realiza en las Áreas de la Comunidad serán públicas y que usted será identificado públicamente por su nombre o identificación de inicio de sesión al comunicarse en las Áreas de la Comunidad, y que BoxMadik no será responsable de la acción de los usuarios con respecto a información o materiales publicados en las Áreas de la Comunidad. \n
+
+d.    CÓDIGOS PROMOCIONALES. \n
+
+BoxMadik podrá, a su exclusiva discreción, generar códigos promocionales que podrán canjearse por crédito en las Cuentas, u otras características o beneficios relacionados con el Sitio de BoxMadik y/o los Servicios Generales, de conformidad con los términos adicionales que BoxMadik establezca según las bases de cada código promocional en particular (“Códigos Promocionales”). Usted acepta que los Códigos Promocionales: (i) deben utilizarse para el propósito y la audiencia previstos, y de manera legal; (ii) no pueden ser duplicados, vendidos o transferidos de ninguna manera, ni ponerse a disposición del público general (ya sea anunciándolos de manera pública o de otra manera), a menos que BoxMadik lo permita expresamente; (iii) pueden ser desactivados por BoxMadik en cualquier momento y por cualquier motivo sin que BoxMadik incurra en alguna responsabilidad; (iv) sólo podrán utilizarse de conformidad con los términos específicos que BoxMadik establezca para estos Códigos Promocionales; (v) no pueden canjearse por dinero en efectivo; y (vi) pueden vencer antes de su uso. BoxMadik se reserva el derecho de retener o deducir créditos u otras características o beneficios obtenidos a través del uso que usted u otro usuario haga de los Códigos Promocionales si BoxMadik determina o considera que el uso o canje de los Códigos Promocionales ha sido realizado de manera errónea, fraudulenta, ilegal o en violación de los términos del Código Promocional correspondiente o de estos Términos. \n
+
+e.     CONTENIDO PROVISTO POR EL CLIENTE O ESPECIALISTA. \n
+
+BoxMadik podrá, a su exclusiva discreción, permitir que usted (ya sea Cliente o Especialista) oportunamente envíe, suba, publique o de otra manera ponga a disposición de BoxMadik a través del Sitio de BoxMadik información y contenido escrito, auditivo y/o visual, lo cual incluye comentarios y opiniones relacionados con el Sitio de BoxMadik, inicio de solicitudes de asistencia y publicación de entradas para competencias y promociones (“Contenido”). Todo el contenido provisto por usted continúa siendo de su propiedad. Sin embargo, al brindar Contenido a BoxMadik, usted otorga a BoxMadik una licencia mundial, perpetua, irrevocable, transferible y sin regalías, con el derecho a sublicenciar, utilizar, reproducir, modificar, distribuir, mostrar públicamente y presentar públicamente dicho Contenido en cualquier formato y canal de distribución conocido actualmente o desarrollado en el futuro para los fines de prestar servicios a través del Sitio de BoxMadik o de otra manera en relación con el negocio de BoxMadik; a condición de que BoxMadik intente notificarle si utilizará su Contenido para cualquier motivo que no sea su publicación en el Sitio de BoxMadik.
+
+Usted declara y garantiza a BoxMadik que es el único y exclusivo propietario de todo el Contenido o bien que tiene todos los derechos, licencias, consentimientos y autorizaciones necesarios para otorgar a BoxMadik la licencia sobre el Contenido según lo establecido anteriormente, y que su Contenido: (a) no será falso, inexacto, incompleto o engañoso; (b) no será fraudulento, falso o involucrará la venta de artículos varios, falsificados o robados; (c) no violará derechos de autor, patentes, marcas comerciales, secretos comerciales u otros derechos de propiedad intelectual o derechos de publicidad o privacidad de terceros; (d) no violará ninguna ley, norma, ordenanza o reglamentación (incluidas, a título enunciativo y no taxativo, aquellas que rigen el control de exportaciones, la protección del consumidor, la competencia desleal, la antidiscriminación o la publicidad engañosa); (e) no será difamatorio, calumnioso, amenazante ilícitamente u hostigador ilícitamente; (f) no será obsceno ni contendrá pornografía infantil o será perjudicial para menores; (g) no contendrá virus, troyanos, gusanos informáticos, bombas lógicas, robots de cancelación u otras rutinas de programación informática que tengan por objeto dañar, interferir perjudicialmente, interceptar de manera oculta o expropiar cualquier sistema, dato o información personal; y (h) no generará responsabilidad alguna por parte de BoxMadik ni causará la pérdida (total o parcial) por parte de BoxMadik de los servicios de sus proveedores de servicios de internet u otros socios o proveedores. BoxMadik podrá revisar, controlar o eliminar Contenido a su exclusiva discreción —pero no tendrá la obligación de hacerlo—, en cualquier momento y por cualquier motivo, sin tener que brindarle notificación alguna.
+
+f.     DISPOSITIVOS Y ACCESO A LA RED. \n
+
+Usted es responsable de obtener el acceso a la red de datos necesario para utilizar el Sitio de BoxMadik. Pueden aplicarse las tasas y los cargos de datos y mensajería de su red móvil si accede o utiliza el Sitio de BoxMadik desde un dispositivo con capacidad inalámbrica. Usted es responsable de adquirir y actualizar los dispositivos o el hardware compatible necesario para acceder y utilizar las Aplicaciones y el Sitio de BoxMadik y cualquier actualización realizada en ellos. BoxMadik no garantiza que el Sitio de BoxMadik, o cualquiera de sus partes, funcionarán en algún dispositivo o hardware en particular. Asimismo, el Sitio de BoxMadik puede presentar un mal funcionamiento o retrasos inherentes al uso de internet y las comunicaciones electrónicas.
+
+4.      PAGO \n
+
+Los Usuarios comprenden que el uso del Sitio de BoxMadik puede dar lugar a cargos por los servicios o productos que reciban de un Especialista (“Cargos”). Luego de que un Cliente haya recibido ofertas de servicios obtenidos a través del uso del Servicio, BoxMadik recolectará el pago que usted haga de los Cargos correspondientes en nombre del Especialista, en carácter de agente de cobro limitado de dicho Especialista. El pago de los Cargos realizado de este modo deberá considerarse de la misma manera que el pago realizado directamente por el Cliente al Especialista. Los Cargos incluirán los impuestos aplicables, según lo requiera la ley y los aplicados por las entidades financieras según corresponda. Los Cargos pagados por el Cliente son finales y no reembolsables, a menos que BoxMadik, a su exclusiva discreción, determine lo contrario (consulte también el último párrafo de esta Sección 4). El Cliente y el Especialista conservan cada uno el derecho a solicitar una modificación en los Cargos por los servicios o productos recibidos por el Cliente de parte del Especialista, y dichos Cargos modificados por un servicio o producto en particular se convertirán en los nuevos Cargos si dicha modificación es aceptada por el Cliente y el Especialista.
+
+Los servicios ofrecidos en este site pueden ser pagos a través de la pasarela de CULQUI es un proveedor de Pago de Cuentas para BoxMadik. Al usar una Cuenta de Pagos de CULQUI, usted acepta los términos y condiciones de CULQUI, previstos en el "Contrato de Prestação de Serviços de Gestão de Pagamentos e Outras Avenças - disponible en www.iugu.com.
+
+Todos los Cargos deben abonarse inmediatamente, y el pago será recolectado por BoxMadik a través del método de pago preferido indicado en la Cuenta del Cliente, tras lo cual BoxMadik enviará al Cliente un recibo por correo electrónico. Si se determina que el método de pago principal en la Cuenta del Cliente ha vencido, es inválido o, por algún otro motivo, no puede utilizarse para el cobro, el Cliente acepta que BoxMadik podrá, en su carácter de agente de cobro limitado del Especialista, utilizar un método de pago secundario en la Cuenta del Cliente, si hubiera uno disponible. El Especialista acepta que BoxMadik actuará como su agente de cobro en virtud de esta Sección 4. Conforme a los derechos de BoxMadik en virtud de estos Términos (incluido el párrafo a continuación), BoxMadik generalmente requerirá el pago del Cliente antes de la prestación del Servicio General correspondiente y remitirá el pago al Especialista luego de que el Cliente haya confirmado que el Servicio General se ha realizado; quedando entendido que, no obstante cualquier disposición en contrario contenida en estos Términos, BoxMadik en ningún caso será responsable de la falta de pago o el retraso en los pagos por parte de los Usuarios.
+De conformidad con las Secciones 6 y 7 de estos Términos (sobre limitación de la responsabilidad, indemnidad de BoxMadik y el derecho de BoxMadik de optar por involucrarse o no en disputas entre Clientes y Especialistas), en su relación con BoxMadik, BoxMadik se reserva el derecho a (i) establecer, eliminar y/o revisar los Cargos por cualquier servicio o producto obtenido a través del uso del Sitio de BoxMadik en cualquier momento y a su exclusiva discreción y (ii) determinar la manera en que se dispondrá de cualquier pago recibido por BoxMadik de parte de un Cliente en caso de disputa entre el Cliente y el Especialista, incluida la posibilidad de remitir dicho pago al Especialista, devolver un pago al Cliente o retener dicho pago en depósito hasta la resolución de la disputa mediante procedimiento judicial o de otro tipo. Asimismo, usted reconoce y acepta que los Cargos aplicables en determinadas áreas geográficas pueden aumentar significativamente durante épocas de alta demanda. BoxMadik tomará medidas razonables para informarle acerca de los Cargos que pudieran aplicarse. BoxMadik podrá, cuando lo considere oportuno, brindar a ciertos Clientes ofertas y descuentos promocionales que pueden dar lugar al cobro de montos diferentes por servicios o productos iguales o similares obtenidos a través del uso del Sitio de BoxMadik, y usted acepta que estas ofertas y descuentos promocionales, a menos que también se pongan a su disposición o sean aplicables a usted, no incidirán en el uso que haga del Sitio de BoxMadik o los Cargos que se le apliquen a usted. Los Clientes pueden optar por cancelar solicitudes de servicios o productos de un Especialista en cualquier momento, en cuyo caso los Clientes pueden estar sujetos al cobro de un cargo por cancelación.
+
+5.      PROPIEDAD INTELECTUAL; DERECHOS DE AUTOR; CONFIDENCIALIDAD \n
+
+a.    DERECHOS DE PROPIEDAD INTELECTUAL. \n
+
+Todo el texto, la gráfica, el contenido editorial, los datos, el formato, los gráficos, los diseños, el lenguaje HTML, el aspecto y la apariencia, las fotografías, la música, los sonidos, las imágenes, el software, los videos, los tipos de letra y otro contenido (colectivamente, “Material Exclusivo”) que vea o lea a través del Sitio de BoxMadik es propiedad de BoxMadik, con la exclusión del Contenido que BoxMadik tiene el derecho a usar según lo descrito anteriormente. El Material Exclusivo está protegido en todas sus formas, medios y tecnologías conocidos actualmente o desarrollados en el futuro. BoxMadik es propietaria de todo el Material Exclusivo, así como de la coordinación, selección, disposición y mejora de dicho Material, con sus modificaciones. El Material Exclusivo está protegido por leyes nacionales e internacionales en materia de derechos de autor, patentes y otros derechos y leyes sobre propiedad intelectual. Usted no puede copiar, descargar, utilizar, rediseñar, reconfigurar ni retransmitir ningún elemento del Sitio de BoxMadik sin el consentimiento expreso previo por escrito de BoxMadik y, si corresponde, del titular de los derechos sobre el Contenido. Cualquier uso de este Material Exclusivo, excepto el que se permite en virtud del presente, está expresamente prohibido sin el permiso previo de BoxMadik y, si corresponde, del titular de los derechos sobre el Contenido.
+
+Las marcas de servicio y las marcas comerciales de BoxMadik, incluidas, a título enunciativo y no taxativo, “BoxMadik” y los logotipos de BoxMadik son marcas de servicio de propiedad de BoxMadik. Cualquier otra marca comercial, marca de servicio, logotipo y/o nombre comercial que aparezca en el Sitio de BoxMadik son propiedad de sus respectivos dueños. Usted no puede copiar ni utilizar ninguna de estas marcas, logotipos o nombres comerciales que aparecen en el Sitio de BoxMadik sin el consentimiento expreso previo por escrito del propietario.
+
+b.     Reclamaciones de derechos de autor y agentes de derechos de autor. \n
+
+BoxMadik respeta la propiedad intelectual ajena, y espera que los usuarios hagan lo mismo. Si usted considera de buena fe que alguno de los materiales proporcionados en el Sitio de BoxMadik o en relación con él violan sus derechos de autor u otros derechos de propiedad intelectual, envíe la información que figura a continuación a: boxmadik@gmail.com:
+
+1.	Identificación del derecho de propiedad intelectual que presuntamente se ha violado. Deben incluirse todos los números de registro pertinentes, o una declaración sobre la titularidad de la obra. \n
+
+2.	Una declaración que identifique específicamente la ubicación del material que presuntamente viola sus derechos, con detalles suficientes para que BoxMadik pueda encontrarlo en el Sitio de BoxMadik. Tenga en cuenta que no es suficiente proporcionar simplemente una URL de nivel superior. \n
+
+3.	Su nombre, dirección, número de teléfono y dirección de correo electrónico. \n
+
+4.	Una declaración realizada por usted indicando que considera de buena fe que el uso del material que presuntamente viola sus derechos no está autorizado por el propietario de los derechos, sus agentes o la ley. \n
+
+5.	Una declaración realizada por usted, bajo pena de perjurio, indicando que la información incluida en su notificación es exacta, y que usted es el propietario de los derechos de autor o está autorizado a actuar en nombre del propietario de los derechos de autor. \n
+
+6.	Una firma física o electrónica del propietario de los derechos de autor o de la persona autorizada a actuar en nombre del propietario de los derechos de autor. \n
+
+c.    INFORMACIÓN CONFIDENCIAL. \n
+
+Usted reconoce que la Información Confidencial (según se define a continuación) es un activo valioso, especial y único de BoxMadik y acepta que no divulgará, transferirá, utilizará (ni intentará inducir a otros a divulgar, transferir o utilizar) Información Confidencial para fines que no sean la divulgación a sus empleados y agentes autorizados que se encuentran obligados a mantener la confidencialidad de la Información Confidencial. Usted deberá notificar inmediatamente a BoxMadik por escrito de cualquier circunstancia que pudiera constituir una divulgación, transferencia o uso no autorizados de la Información Confidencial. Usted deberá realizar todo lo posible para proteger la Información Confidencial de la divulgación, transferencia o uso no autorizados. Usted deberá devolver todos los originales y cualquier copia de los materiales que contengan Información Confidencial a BoxMadik al momento de extinción de este Acuerdo por cualquier motivo que fuera. El término “Información Confidencial” se referirá a todos los secretos comerciales e información confidencial y de propiedad exclusiva de BoxMadik y a toda otra información y datos de BoxMadik que en general no sean de conocimiento del público o de otros terceros que pudieran obtener un valor, económico o de otro tipo, de su uso o divulgación. Se considerará que la Información Confidencial incluye datos técnicos, know-how, estudios, planos de productos, productos, servicios, clientes, mercados, software, desarrollos, invenciones, procesos, fórmulas, tecnología, diseños, dibujos, ingeniería, información de configuración de hardware, marketing, finanzas u otra información comercial divulgada directa o indirectamente por escrito, en forma oral o a través de dibujos u observaciones.
+
+6.      EXENCIONES DE RESPONSABILIDAD; LIMITACIÓN DE RESPONSABILIDAD; INDEMNIDAD \n
+
+a.    EXENCIÓN DE RESPONSABILIDAD. \n
+
+Los productos y servicios adquiridos u ofrecidos (ya sea mediante recomendaciones y sugerencias o no) a través del Sitio de BoxMadik (incluidos, a título enunciativo y no taxativo, los Servicios Generales) (“Servicios de BoxMadik”) se ofrecen “EN EL ESTADO EN QUE SE ENCUENTRAN” y sin ninguna garantía de ningún tipo por parte de BoxMadik u otras personas (a menos que, con respecto a estas otras personas únicamente, se haya brindado expresamente e inequívocamente por escrito por parte de un tercero designado para un producto específico). LOS SERVICIOS DE BOXMADIK SE OFRECEN “EN EL ESTADO EN QUE SE ENCUENTRAN” Y ESTÁN “SUJETOS A DISPONIBILIDAD”. EL USO QUE HAGA EL USUARIO DE LOS SERVICIOS DE BOXMADIK LO REALIZA BAJO SU PROPIO RIESGO. EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEGISLACIÓN APLICABLE, LOS SERVICIOS DE BOXMADIK SE OFRECEN SIN GARANTÍAS DE NINGÚN TIPO, YA SEAN EXPRESAS O IMPLÍCITAS, INCLUIDAS, A TÍTULO ENUNCIATIVO Y NO TAXATIVO, LAS GARANTÍAS IMPLÍCITAS DE APTITUD PARA LA VENTA, IDONEIDAD PARA UN FIN DETERMINADO O LEGALIDAD. SIN PERJUICIO DE LO INDICADO ANTERIORMENTE, BOXMADIK Y SUS LICENCIANTES NO GARANTIZAN QUE EL CONTENIDO SEA EXACTO, FIDEDIGNO O CORRECTO; QUE LOS SERVICIOS CUMPLIRÁN LOS REQUERIMIENTOS DE LOS USUARIOS; QUE LOS SERVICIOS ESTARÁN DISPONIBLES EN UN MOMENTO O UBICACIÓN EN PARTICULAR, SIN INTERRUPCIONES O DE MANERA SEGURA; QUE LOS DEFECTOS O ERRORES SERÁN CORREGIDOS; NI QUE LOS SERVICIOS ESTÁN LIBRES DE VIRUS U OTROS COMPONENTES DAÑINOS. BOXMADIK NO GARANTIZA LA CALIDAD, IDONEIDAD, SEGURIDAD NI HABILIDAD DE LOS ESPECIALISTAS. EL CLIENTE ACEPTA QUE EL RIESGO TOTAL QUE SURGE DE SU USO DE LOS SERVICIOS Y DE LOS SERVICIOS O PRODUCTOS SOLICITADOS EN RELACIÓN CON ELLOS CORRE EXCLUSIVAMENTE POR CUENTA DEL CLIEBTE EN LA MÁXIMA MEDIDA PERMITIDA EN VIRTUD DE LA LEGISLACIÓN APLICABLE. USTED ACEPTA QUE BOXMADIK NO SERÁ RESPONSABLE DE SUS ACCIONES U OMISIONES NI DE LAS ACCIONES U OMISIONES DE CUALQUIER CLIENTE O ESPECIALISTA.
+
+b.     LIMITACIÓN DE RESPONSABILIDAD. \n
+
+BOXMADIK NO SERÁ RESPONSABLE DE DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, EJEMPLARES, PUNITIVOS O CONSECUENTES, ENTRE LOS QUE SE INCLUYEN LA PÉRDIDA DE INGRESOS, LA PÉRDIDA DE DATOS, LESIONES PERSONALES O DAÑOS A LA PROPIEDAD, RELACIONADOS CON EL USO DE LOS SERVICIOS O COMO CONSECUENCIA DE ÉL, INCLUSO SI BOXMADIK HABÍA SIDO INFORMADA SOBRE LA POSIBILIDAD DE TALES DAÑOS. BOXMADIK NO SERÁ RESPONSABLE DE DAÑOS, PERJUICIOS O PÉRDIDAS QUE SURJAN DE: (i) SU PRESTACIÓN, USO O DEPENDENCIA DE LOS SERVICIOS DE BOXMADIK O SU INCAPACIDAD PARA ACCEDER O UTILIZAR LOS SERVICIOS DE BOXMADIK; O (ii) CUALQUIER TRANSACCIÓN O RELACIÓN ENTRE EL CLIENTE Y CUALQUIER ESPECILISTA, INCLUSO SI BOXMADIK HABÍA SIDO INFORMADA SOBRE LA POSIBILIDAD DE TALES DAÑOS. BOXMADIK NO SERÁ RESPONSABLE DEL RETRASO O EL INCUMPLIMIENTO QUE RESULTE DE CAUSAS QUE EXCEDEN EL CONTROL RAZONABLE DE BOXMADIK. EL USUARIO RECONOCE QUE ES POSIBLE QUE LOS ESPECIALISTAS QUE OFRECEN SERVICIOS GENERALES NO CUENTEN CON LICENCIAS O AUTORIZACIONES PROFESIONALES. EN NINGÚN CASO LA RESPONSABILIDAD TOTAL DE BOXMADIK FRENTE A USTED EN RELACIÓN CON LOS SERVICIOS POR TODOS LOS DAÑOS, PÉRDIDAS Y CAUSAS DE ACCIÓN EXCEDERÁ LOS CARGOS TOTALES PAGADOS O RECIBIDOS POR USTED A TRAVÉS DE BOXMADIK DURANTE LOS SEIS (6) MESES ANTERIORES AL MOMENTO EN QUE SE PRESENTÓ LA RECLAMACIÓN.
+
+LOS SERVICIOS DE BOXMADIK PUEDEN SER UTILIZADOS POR EL USUARIO PARA SOLICITAR Y PROGRAMAR PRODUCTOS O SERVICIOS DE LOGÍSTICA CON LOS ESPECIALISTAS, PERO USTED ACEPTA QUE BOXMADIK NO TIENE RESPONSABILIDAD ALGUNA FRENTE A USTED EN RELACIÓN CON LOS PRODUCTOS O SERVICIOS DE LOGÍSTICA OFRECIDOS AL USUARIO POR LOS ESPECIALISTAS O CON RESPECTO AL USO DE LOS SERVICIOS GENERALES POR PARTE DEL USUARIO (INCLUIDA LA FALTA DE PAGO) MÁS QUE LA QUE SE ESTABLECE EXPRESAMENTE EN ESTOS TÉRMINOS.
+
+LAS LIMITACIONES Y LA EXENCIÓN DE RESPONSABILIDAD QUE SE ESTABLECEN EN ESTA SECCIÓN 6 NO PRETENDEN LIMITAR LA RESPONSABILIDAD NI ALTERAR LOS DERECHOS DEL USUARIO COMO CONSUMIDOR QUE NO PUEDEN EXCLUIRSE EN VIRTUD DE LA LEGISLACIÓN APLICABLE.
+
+c.    INDEMNIDAD. \n
+
+Usted acepta liberar de responsabilidad y mantener indemne a BoxMadik y sus ejecutivos, directores, empleados y agentes de cualquier reclamación, demanda, pérdida, responsabilidad y gasto (incluidos, a título enunciativo y no taxativo, los honorarios de abogados) que surjan o se relacionen con: (i) su uso del Sitio de BoxMadik o los servicios o productos obtenidos o proporcionados o vendidos a través de su uso del Sitio de BoxMadik, incluido cualquier dato o contenido transmitido o recibido por usted, o el acceso o uso del Sitio de BoxMadik por un tercero con su nombre de usuario y contraseña; (ii) su incumplimiento o violación de cualquiera de estos Términos o de leyes, normas o reglamentaciones aplicables (incluidas, a título enunciativo y no taxativo, las leyes en materia impositiva o laboral); (iii) el uso de su Contenido por parte de BoxMadik; o (iv) su violación de derechos de terceros, incluidos clientes y Especialistas.
+
+7.      DISPUTAS ENTRE ESPCIALISTAS Y CLIENTES \n
+
+Sus interacciones con organizaciones y/o individuos encontrados en el Sitio de BoxMadik o a través de él, incluido el pago y la entrega de productos y servicios, y cualquier otro término, condición, garantía o declaración asociados con estas comunicaciones se realizan exclusivamente entre usted y dichas organizaciones y/o individuos. Usted debe llevar a cabo las investigaciones que considere necesarias o pertinentes antes de proceder con cualquier transacción en línea o fuera de línea con cualquiera de estos terceros. Usted acepta que BoxMadik no será responsable de pérdidas o daños de ningún tipo que surjan como consecuencia de dichas comunicaciones.
+Si hubiera alguna disputa entre Clientes y/o Especialistas, o entre Clientes y/o Especialistas y cualquier tercero, usted acepta que BoxMadik, a su exclusiva discreción, podrá determinar el monto de los Cargos y a quién remitírselos de conformidad con la Sección 4, quedando entendido que BoxMadik en ningún caso tendrá la obligación de verse involucrada en dichas disputas. En relación con disputas con otros Clientes o Especialistas, usted, por medio del presente, acepta mantener indemne a BoxMadik de reclamaciones, demandas y daños, reales y consecuentes, de cualquier tipo y naturaleza, conocidos y desconocidos, que se relacionen con dicha disputa o nuestras determinaciones al respecto.
+
+8.      DISPUTAS CON BOXMADIK \n
+
+a.    RENUNCIA AL JUICIO POR JURADO. \n
+
+Usted acepta que cualquier disputa, reclamación o controversia que surja de estos Términos o en relación con ellos o con el incumplimiento, la extinción, la aplicación, la interpretación o la validez de estos Términos o el uso del Sitio BoxMadik (colectivamente, “Disputas”) se resolverá mediante arbitraje vinculante entre usted y BoxMadik, con la excepción de que cada parte se reserva el derecho de iniciar una acción individual en un tribunal de cuestiones menores y el derecho de solicitar medidas precautorias u otros recursos de equidad en un tribunal de jurisdicción competente para evitar la infracción real o potencial, la apropiación indebida o la violación de derechos de autor, marcas comerciales, secretos comerciales, patentes u otros derechos de propiedad intelectual de alguna de las partes. Usted reconoce y acepta que usted y BoxMadik están renunciando al derecho de juicio por jurado o a participar como demandante o parte de cualquier demanda colectiva o acción representativa que se pretenda. Asimismo, a menos que usted y BoxMadik acuerden lo contrario por escrito, el árbitro no podrá consolidar las reclamaciones de más de una persona y tampoco podrá resolver sobre demandas colectivas o acciones representativas de ningún tipo. Si este párrafo en particular fuera considerado inválido, entonces la totalidad de esta sección de “Resolución de Disputas” será considerada nula. Excepto según lo indicado en la oración anterior, esta sección de “Resolución de Disputas” continuará vigente después de la extinción de estos Términos.
+
+b.     NEGOCIACIÓN INFORMAL. \n
+
+Para acelerar la resolución y reducir el costo de cualquier disputa, controversia o reclamación relacionada con este Acuerdo o que surja de alguna otra manera de la relación entre usted y BoxMadik, usted acepta como primer intento negociar cualquier disputa de manera informal durante al menos treinta (30) días antes de iniciar cualquier arbitraje o procedimiento judicial. Estas negociaciones informales comenzarán mediante notificación escrita. Su dirección a los efectos de estas notificaciones será la dirección indicada en su cuenta de BoxMadik. La dirección de BoxMadik a los efectos de estas notificaciones es previa consulta.
+
+9.      OTRAS DISPOSICIONES \n
+
+a.    LEGISLACIÓN APLICABLE.
+
+Estos Términos se regirán e interpretarán de conformidad con las leyes Peruanas
+
+b.    GENERAL. \n
+
+Usted no puede ceder estos Términos sin la aprobación previa por escrito de BoxMadik. BoxMadik podrá ceder estos Términos sin su consentimiento a: (i) subsidiarias o afiliadas; (ii) adquirentes de capital, el negocio o activos de BoxMadik; o (iii) sucesores por fusión. Cualquier intento de cesión que no cumpla con esta sección será nulo. No existe ningún tipo de empresa conjunta, asociación, relación de empleo o relación de agencia entre usted y BoxMadik como consecuencia de este Acuerdo o el uso del Sitio de BoxMadik. Si alguna disposición de estos Términos fuera considerada inválida o inaplicable, dicha disposición será eliminada y el resto de las disposiciones conservarán su validez en la máxima medida que la ley lo permita. El hecho de que BoxMadik no ejerza algún derecho o disposición en estos Términos no constituirá una renuncia a dicho derecho o disposición, a menos que BoxMadik lo reconozca y acepte por escrito.
+
+AL HACER CLIC EN “ACEPTO”, USTED RECONOCE EXPRESAMENTE QUE HA LEÍDO, COMPRENDIDO Y TOMADO LAS MEDIDAS PARA CONSIDERAR SERIAMENTE LAS CONSECUENCIAS DE ESTE ACUERDO, QUE SE COMPROMETE A QUEDAR OBLIGADO POR LOS TÉRMINOS Y CONDICIONES DEL ACUERDO, Y QUE ES LEGALMENTE COMPETENTE PARA CELEBRAR ESTE ACUERDO CON BOXMADIK.
+
+
+
+
+
+
+    </string>
+
+    <string name="terminos_condiciones_titulo">Terminos y Condiciones</string>
+    <string name="mensaje_confirmacion_terminos_condiciones">Acepto las Politicas de </string>
+    <string name="reporte_pago_activity_servicio_pago">ACUERDO DE SERVICIO</string>
+    <string name="informacion_fecha_propuesta">Fecha Propuesta</string>
+    <string name="informacion_nombre_especialista">Especialista</string>
+    <string name="informacion_pago">Monto Pagado :</string>
+    <string name="informacion_datos_pago">Los datos del contacto se comunican al Tecnico y al Cliente</string>
+    <string name="informacion_finalizar">Finalizar</string>
+    <string name="informacion_especialista">Información Especialista</string>
+    <string name="informacion_aceptar">Aceptar</string>
+    <string name="informacion_enviar">Enviar</string>
+    <string name="informacion_cotiza_fragment_desembolsar">Desembolsar Dinero</string>
+    <string name="informacion_motivo_revocacion">¿Cual es tu Reclamo?</string>
+    <string name="informacion_calidad_trabajo">Calidad del Servicio</string>
+    <string name="informacion_porcentaje_trabajo">Avance del Servicio : </string>
+    <string name="informacion_solicita_revocante">Usted que Solicita ?</string>
+    <string name="informacion_observacion">Ingrese detalle de su reclamo</string>
+    <string name="informacion_seleccion_departamento">Ingresar su Departamento (*)</string>
+    <string name="informacion_seleccion_provincia">Ingresar su Provincia (*)</string>
+    <string name="informacion_seleccion_distrito">Ingresar su Distrito (*)</string>
+    <string name="informacion_escribir_direccion">Direccion Opcional </string>
+    <string name="informacion_seleccion_banco">Ingresar su Banco (*)</string>
+
+    <string-array name="spinner_tipo_doc">
+        <item>Tipo Documento</item>
+        <item>DNI</item>
+        <item>Pasaporte</item>
+    </string-array>
+
+
+    <string-array name="spinner_pais">
+        <item>Selecionar Pais</item>
+        <item>Peru</item>
+    </string-array>
+
+    <string-array name="spinner_departamento">
+        <item>Seleccionar Departamento</item>
+        <item>Lima</item>
+    </string-array>
+
+    <string-array name="spinner_provincia">
+        <item>Seleccionar Provincia</item>
+        <item>Lima</item>
+    </string-array>
+
+    <string-array name="spinner_distrito">
+        <item>Seleccionar Distrito</item>
+        <item>Lima</item>
+        <item>Rimac</item>
+        <item>Comas</item>
+    </string-array>
+
+    <string-array name="spinner_curso">
+        <item>Seleccionar Curso</item>
+        <item>Java</item>
+        <item>PHP</item>
+        <item>C++</item>
+    </string-array>
+
+    <string-array name="spinner_centro_estudio">
+        <item>Seleccionar Centro de Estudios</item>
+        <item>USIL</item>
+        <item>IDAT</item>
+        <item>CIBERTEC</item>
+    </string-array>
+
+    <string-array name="spinner_banco">
+        <item>Seleccionar Banco</item>
+        <item>BCP</item>
+        <item>CONTINENTAL</item>
+        <item>INTERBANK</item>
+    </string-array>
+
+    <string-array name="spinner_tipocuenta">
+        <item>Seleccionar Tipo de Cuenta</item>
+        <item>Ahorro</item>
+        <item>Cuenta Corriente</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_api_key">AIzaSyAhNreIYZwL9zQTohq9_raAZLNQpv4Ccos</string>
+    <string name="informacion_trabajos_realizados">TRABAJOS REALIZADOS</string>
+    <string name="informacion_comentarios">Comentarios</string>
+    <string name="informacion_cursos_estudios">Cursos Estudiados</string>
+    <string name="informacion_antecendentes_sin_validar">Sin Verificar</string>
+    <string name="informacion_antecendentes_validado">Verificado</string>
+    <string name="informacion_seleccion_tipo_puesto">Escriba su Tipo Estudio (*)</string>
+    <string name="informacion_seleccion_centro_estudios">Escriba su Centro Estudio  (*)</string>
+    <string name="informacion_respuesta">¿Acepta usted la Revocacion ?</string>
+    <string name="informacion_si">Si</string>
+    <string name="informacion_no" >No</string>
+    <string name="informacion_propuesta">Propuesta :</string>
+    <string name="titulo_calificar" >Calificar</string>
+    <string name="informacion_monto_contable">Monto Contable S./</string>
+    <string name="informacion_monto_disponible">Monto Disponible S./</string>
+    <string name="informacion_monto_total">Monto Total S./</string>
+    <string name="detalle_movimiento">DETALLE \"MONTO CONTABLE\"</string>
+    <string name="informacion_reportePago">Reporte Pago</string>
+
+</resources>

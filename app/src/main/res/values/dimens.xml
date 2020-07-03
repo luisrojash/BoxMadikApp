@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_80dp">80dp</dimen>
+    <dimen name="table_header_width_eval_session">45dp</dimen>
+    <dimen name="table_firstheader_width_eval_session">120dp</dimen>
+    <dimen name="table_body_height_eval_bidimencional">120dp</dimen>
+
+    <!--<dimen name="table_header_width_eval_session">45dp</dimen>-->
+    <!--<dimen name="table_firstheader_width_eval_session">120dp</dimen>-->
+    <!--<dimen name="table_body_height_eval_bidimencional">55dp</dimen>-->
+</resources>

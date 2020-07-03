@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_color"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/id_banderaRight"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imgProfile" />
+
+
+        <TextView
+            android:id="@+id/textViewFechaCotiza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="textViewFecha"
+            android:textColor="@color/md_black_1000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <RatingBar
+            android:id="@+id/myRatingBar"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewFechaCotiza" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_file_upload_black_24dp"
+            app:civ_border_color="#d7d7d7"
+            app:civ_border_width="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_electricista"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfile"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfile" />
+
+        <!--style="@style/TextAppearance.AppCompat.Title"-->
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Juan Perez Soza"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+        <!--style="@style/TextAppearance.AppCompat.SearchResult.Title"-->
+        <TextView
+            android:id="@+id/textView11"
+            android:gravity="center"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Juan Perez Soza"
+            android:textColor="@color/md_black_1000"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfile" />
+
+
+        <View
+            android:id="@+id/primerView"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myRatingBar" />
+
+
+        <TextView
+            android:id="@+id/textView15"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="120"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/textView14"
+            app:layout_constraintStart_toStartOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/primerView" />
+
+        <TextView
+            android:id="@+id/textView14"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Cot.Pendiente"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@+id/textViewProcesos"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+
+        <TextView
+            android:id="@+id/textView17"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="12"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/textViewProcesos"
+            app:layout_constraintStart_toStartOf="@+id/textViewProcesos"
+            app:layout_constraintTop_toBottomOf="@+id/primerView" />
+
+
+        <TextView
+            android:id="@+id/textViewProcesos"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Cot.Finalizada"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@+id/textViewProceso"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+
+        <TextView
+            android:id="@+id/textView16"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="120"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/textViewProceso"
+            app:layout_constraintStart_toStartOf="@+id/textViewProceso"
+            app:layout_constraintTop_toBottomOf="@+id/primerView" />
+
+
+        <TextView
+            android:id="@+id/textViewProceso"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Cot.Aceptado"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textViewProcesos"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <View
+            android:id="@+id/segundoView"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewProceso" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+
+        <Button
+            android:id="@+id/btnEnviarMensaje"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/btn_bg"
+            android:text="Enviar Mensaje "
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintStart_toStartOf="@+id/segundoView"
+            app:layout_constraintTop_toBottomOf="@+id/primerView" />
+
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/informacion_aceptar"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/btnEnviarMensaje" />
+
+        <Button
+            android:id="@+id/btnReportePago"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/informacion_reportePago"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/btnEnviarMensaje" />
+
+        <Button
+            android:id="@+id/btnDesembolsar"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/informacion_cotiza_fragment_desembolsar"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/btnEnviarMensaje" />
+
+
+        <View
+            android:id="@+id/tercerView"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnEnviarMensaje" />
+
+
+        <include
+            android:id="@+id/includeContent"
+            layout="@layout/view_design_especialista_cotizacion_mensaje"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tercerView" />
+
+
+        <View
+            android:id="@+id/cuartaView"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/includeContent" />
+
+
+        <Button
+
+            android:id="@+id/btnEnviarRevocacion"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_bg_revocados"
+            android:text="Revocación"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cuartaView"
+            app:layout_constraintStart_toStartOf="@+id/cuartaView"
+            app:layout_constraintTop_toTopOf="@+id/cuartaView" />
+
+
+        <Button
+            android:id="@+id/btnLevantarRevocacion"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_bg"
+            android:text="Levantar Revocación"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnVerRespuesta"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cuartaView" />
+
+        <Button
+            android:id="@+id/btnVerRespuesta"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/btn_bg"
+            android:text="Ver Respuesta Revocada"
+            android:textColor="#ffffff"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnLevantarRevocacion"
+            app:layout_constraintTop_toTopOf="@+id/btnLevantarRevocacion" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/fondo_color"-->
+    <!--android:fillViewport="true">-->
+
+    <!--<android.support.constraint.ConstraintLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/id_banderaRight"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/textView10"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="@+id/imgProfile" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewFechaCotiza"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text=""-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--<ProgressBar-->
+            <!--android:id="@+id/progressBar"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+        <!--<RatingBar-->
+            <!--android:id="@+id/myRatingBar"-->
+            <!--style="?android:attr/ratingBarStyleIndicator"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:isIndicator="true"-->
+            <!--android:numStars="5"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textView11" />-->
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/imgProfile"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="24dp"-->
+            <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+            <!--android:src="@drawable/ic_file_upload_black_24dp"-->
+            <!--app:civ_border_color="#d7d7d7"-->
+            <!--app:civ_border_width="2dp"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--tools:ignore="MissingConstraints" />-->
+
+
+        <!--<ImageView-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:src="@drawable/ic_electricista"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintBottom_toBottomOf="@+id/imgProfile"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/imgProfile" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView10"-->
+            <!--style="@style/TextAppearance.AppCompat.Title"        android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:text="Juan Perez Soza"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/imgProfile" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView11"-->
+            <!--style="@style/TextAppearance.AppCompat.SearchResult.Title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:text="Juan Perez Soza"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textView10" />-->
+
+
+        <!--<View-->
+            <!--android:id="@+id/primerView"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/myRatingBar" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView15"-->
+            <!--style="@style/TextAppearance.AppCompat.Large"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:text="120"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/textView14"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/textView14"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/primerView" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView14"-->
+            <!--style="@style/Base.TextAppearance.AppCompat.Widget.Switch"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="Cot.Pendiente"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/textViewProcesos"-->
+            <!--app:layout_constraintHorizontal_bias="0.5"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textView15" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView17"-->
+            <!--style="@style/TextAppearance.AppCompat.Large"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="12"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/textViewProcesos"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/textViewProcesos"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/primerView" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewProcesos"-->
+            <!--style="@style/Base.TextAppearance.AppCompat.Widget.Switch"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="Cot.Finalizada"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/textViewProceso"-->
+            <!--app:layout_constraintHorizontal_bias="0.5"-->
+            <!--app:layout_constraintStart_toEndOf="@+id/textView14"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textView17" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView16"-->
+            <!--style="@style/TextAppearance.AppCompat.Large"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="120"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/textViewProceso"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/textViewProceso"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/primerView" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewProceso"-->
+            <!--style="@style/Base.TextAppearance.AppCompat.Widget.Switch"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="Cot.Aceptado"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.5"-->
+            <!--app:layout_constraintStart_toEndOf="@+id/textViewProcesos"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textView16" />-->
+
+        <!--<View-->
+            <!--android:id="@+id/segundoView"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textViewProceso" />-->
+
+
+        <!--<android.support.constraint.Guideline-->
+            <!--android:id="@+id/guideline"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--app:layout_constraintGuide_percent="0.5" />-->
+
+
+        <!--<Button-->
+            <!--android:id="@+id/btnEnviarMensaje"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="36dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="24dp"-->
+            <!--android:background="@drawable/btn_bg"-->
+            <!--android:text="Enviar Mensaje "-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textStyle="bold"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/guideline"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/segundoView"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/primerView" />-->
+
+
+        <!--<Button-->
+            <!--android:id="@+id/btnAceptar"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="36dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:background="@drawable/btn_bg"-->
+            <!--android:text="@string/informacion_aceptar"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textStyle="bold"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/guideline"-->
+            <!--app:layout_constraintTop_toTopOf="@+id/btnEnviarMensaje" />-->
+
+
+        <!--<Button-->
+            <!--android:id="@+id/btnDesembolsar"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="36dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:background="@drawable/btn_bg"-->
+            <!--android:text="@string/informacion_cotiza_fragment_desembolsar"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textStyle="bold"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/guideline"-->
+            <!--app:layout_constraintTop_toTopOf="@+id/btnEnviarMensaje" />-->
+
+
+        <!--<View-->
+            <!--android:id="@+id/tercerView"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_marginEnd="32dp"-->
+            <!--android:layout_marginLeft="32dp"-->
+            <!--android:layout_marginRight="32dp"-->
+            <!--android:layout_marginStart="32dp"-->
+            <!--android:layout_marginTop="24dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/btnEnviarMensaje" />-->
+
+
+        <!--<include-->
+            <!--android:id="@+id/includeContent"-->
+            <!--layout="@layout/view_design_especialista_cotizacion_mensaje"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="32dp"-->
+            <!--android:layout_marginLeft="32dp"-->
+            <!--android:layout_marginRight="32dp"-->
+            <!--android:layout_marginStart="32dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/tercerView" />-->
+
+
+        <!--<View-->
+            <!--android:id="@+id/cuartaView"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_marginEnd="32dp"-->
+            <!--android:layout_marginLeft="32dp"-->
+            <!--android:layout_marginRight="32dp"-->
+            <!--android:layout_marginStart="32dp"-->
+            <!--android:layout_marginTop="24dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/includeContent" />-->
+
+
+        <!--<Button-->
+
+            <!--android:id="@+id/btnEnviarRevocacion"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="36dp"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--android:layout_marginEnd="24dp"-->
+            <!--android:layout_marginLeft="24dp"-->
+            <!--android:layout_marginRight="24dp"-->
+            <!--android:layout_marginStart="24dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:background="@drawable/btn_bg_revocados"-->
+            <!--android:text="Revocación"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textStyle="bold"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/cuartaView"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/cuartaView"-->
+            <!--app:layout_constraintTop_toTopOf="@+id/cuartaView" />-->
+
+
+        <!--<Button-->
+
+            <!--android:id="@+id/btnLevantarRevocacion"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="36dp"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--android:layout_marginEnd="24dp"-->
+            <!--android:layout_marginLeft="24dp"-->
+            <!--android:layout_marginRight="24dp"-->
+            <!--android:layout_marginStart="24dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:background="@drawable/btn_bg"-->
+            <!--android:text="Levantar Revocación"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textStyle="bold"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/cuartaView"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/cuartaView"-->
+            <!--app:layout_constraintTop_toTopOf="@+id/cuartaView" />-->
+
+
+
+    <!--</android.support.constraint.ConstraintLayout>-->
+
+<!--</ScrollView>-->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="512"
+    android:viewportHeight="512"
+    android:width="512dp"
+    android:height="512dp">
+    <path
+        android:pathData="M512 0l-40 0 0 16 24 0 0 32 16 0 0 -48zm-80 0l-40 0 0 16 40 0 0 -16zm-80 0l-40 0 0 16 40 0 0 -16zm-80 0l-40 0 0 16 40 0 0 -16zm-80 0l-40 0 0 16 40 0 0 -16zm-80 0l-40 0 0 16 40 0 0 -16zM32 0L0 0 0 16 32 16 32 0ZM16 48L0 48 0 88 16 88 16 48Zm0 80l-16 0 0 40 16 0 0 -40zm0 80l-16 0 0 40 16 0 0 -40zm0 80l-16 0 0 40 16 0 0 -40zm0 80l-16 0 0 40 16 0 0 -40zm0 80l-16 0 0 40 16 0 0 -40zm40 48l-40 0 0 16 40 0 0 -16zm80 0l-40 0 0 16 40 0 0 -16zm80 0l-40 0 0 16 40 0 0 -16zm80 0l-40 0 0 16 40 0 0 -16zm80 0l-40 0 0 16 40 0 0 -16zm80 0l-40 0 0 16 40 0 0 -16zm56 -8l-16 0 0 8 0 0 0 16 16 0 0 -24zm0 -80l-16 0 0 40 16 0 0 -40zm0 -80l-16 0 0 40 16 0 0 -40zm0 -80l-16 0 0 40 16 0 0 -40zm0 -80l-16 0 0 40 16 0 0 -40zm0 -80l-16 0 0 40 16 0 0 -40z"
+        android:fillColor="#999999" />
+    <path
+        android:pathData="M244 175.976l24 0 0 160.08 -24 0z"
+        android:fillColor="#ff6600" />
+    <path
+        android:pathData="M175.976 244l160.08 0 0 24 -160.08 0z"
+        android:fillColor="#ff6600" />
+</vector>

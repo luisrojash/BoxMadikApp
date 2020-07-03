@@ -1,0 +1,13 @@
+
+`
+java:S1444+"JMake this "public static EXTRA_DETALLES_COTIZA_COTIZACIONESUI" field final(·§Ö®
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÖË†ışÿÿÿÿ
+†
+java:S1104+"pMake EXTRA_DETALLES_COTIZA_COTIZACIONESUI a static final constant or non-public and provide accessors if needed.(·§Ö®
+w
+java:S1488P"\Immediately return this expression instead of assigning it to the temporary variable "view".(îœæóşÿÿÿÿ
+…
+java:S3008+"oRename this field "EXTRA_DETALLES_COTIZA_COTIZACIONESUI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·§Ö®
+>
+java:S1172w"(Remove this unused method parameter "i".(ù’ÿÓ
+R	java:S125—"<This block of commented-out lines of code should be removed.(ğ‘øî

@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnRevocacion"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_bg_revocados"
+            android:text="Responder Revocación "
+            android:enabled="false"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@+id/buttonVerRevocacion"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/cardViewPrimeroro"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonVerRevocacion"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_bg_revocados"
+            android:text="Ver Revocación Cliente"
+            android:visibility="gone"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/cardViewPrimeroro"
+            app:layout_constraintStart_toEndOf="@+id/btnRevocacion"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/cardViewPrimeroro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnRevocacion">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayoutPrimero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.5" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/one_border"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        style="@style/TextAppearance.Compat.Notification.Title"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:text="# COTIZACIONES"
+                        android:textColor="@color/md_black_1000"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/btnCountCotizacion2"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/round_button"
+                        android:text="0"
+                        android:textColor="@color/md_white_1000"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/textView9"
+                        app:layout_constraintStart_toStartOf="@+id/textView9"
+                        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+
+                    android:layout_weight="1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline3"
+                    app:layout_constraintTop_toTopOf="@+id/constraintLayout6">
+
+                    <TextView
+                        android:id="@+id/textViewCostoPromedio"
+                        style="@style/TextAppearance.Compat.Notification.Title"
+                        android:textStyle="bold"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="COSTO PROMEDIO"
+                        android:textColor="@color/md_black_1000"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textviewPromedio"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:maxLines="1"
+                        android:text="S/. 1200"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/textViewCostoPromedio"
+                        app:layout_constraintStart_toStartOf="@+id/textViewCostoPromedio"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewCostoPromedio" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textViewCosto"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:textStyle="bold"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="DETALLES DE LA PROPUESTA :"
+            android:textColor="@color/md_black_1000"
+            app:layout_constraintStart_toStartOf="@+id/includeContent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewPrimeroro" />
+
+
+        <include
+            android:id="@+id/includeContent"
+            layout="@layout/view_cliente_detalles_descripcion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/cardViewPrimeroro"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/cardViewPrimeroro"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCosto" />
+
+
+        <TextView
+            android:id="@+id/textViewImagenPropuesta"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="IMAGENES DE LA PROPUESTA :"
+            android:textColor="@color/md_black_1000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayoutImagenes"
+            app:layout_constraintTop_toBottomOf="@+id/includeContent" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutImagenes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/includeContent"
+            app:layout_constraintStart_toStartOf="@+id/includeContent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewImagenPropuesta">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+
+            <ImageView
+                android:id="@+id/imageViewPrimero"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/agregar_imagen"
+                android:visibility="gone"
+                app:layout_constraintEnd_toStartOf="@+id/guide"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/imageViewSegundo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/agregar_imagen"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/guide"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textViewEmptyImagenes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="No hay Imagenes"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textViewAtH"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text=" Hora Atención"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayoutImagenes"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayoutImagenes"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutImagenes" />
+
+
+        <!--<android.support.constraint.ConstraintLayout-->
+        <!--android:id="@+id/linearLayoutSegundo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginStart="16dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="@drawable/border_color_negro"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:visibility="visible"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textViewAtH">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/textViewho"-->
+        <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="0dp"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--android:layout_marginRight="0dp"-->
+        <!--android:layout_marginStart="0dp"-->
+        <!--android:background="@drawable/one_border_abajo"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Hora Atención"-->
+        <!--android:visibility="visible"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--<android.support.constraint.Guideline-->
+        <!--android:id="@+id/guideline3Segundo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--app:layout_constraintGuide_percent="0.5" />-->
+
+        <!--<android.support.constraint.ConstraintLayout-->
+        <!--android:id="@+id/constraintLayout6Segundo"-->
+        <!--android:layout_width="187dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@drawable/one_border"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/guideline3Segundo"-->
+        <!--app:layout_constraintHorizontal_bias="1.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textViewho">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/textView9Segundo"-->
+        <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text="Dias"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/textViewRangoDias"-->
+        <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="2dp"-->
+        <!--android:layout_marginLeft="2dp"-->
+        <!--android:layout_marginRight="2dp"-->
+        <!--android:layout_marginStart="2dp"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:maxLines="1"-->
+        <!--android:gravity="center"-->
+        <!--android:text="S/. 1200"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:textSize="15dp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textView9Segundo" />-->
+
+
+        <!--</android.support.constraint.ConstraintLayout>-->
+
+
+        <!--<android.support.constraint.ConstraintLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:layout_weight="1"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/guideline3Segundo"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/constraintLayout6Segundo">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/textViewCostoPromedioSegundo"-->
+        <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text="Horario"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/textviewRangoTurno"-->
+        <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:maxLines="1"-->
+        <!--android:text="S/. 1200"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:textSize="15dp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textViewCostoPromedioSegundo" />-->
+
+
+        <!--</android.support.constraint.ConstraintLayout>-->
+
+        <!--</android.support.constraint.ConstraintLayout>-->
+        <!---->
+        <!---->
+        <!---->
+
+
+        <TextView
+            android:id="@+id/textViewAten"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="SE REALIZARA EL SERVICIO"
+            android:textColor="@color/md_black_1000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/includeContent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="@+id/includeContent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAtH" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/linearLayoutSegundo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:visibility="visible"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAten">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayoutPrimeroServicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline3Servicio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.5" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout6Servicio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/one_border_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline3Servicio"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+
+                    <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+                    <TextView
+                        android:id="@+id/textView9Servicio"
+                        style="@style/TextAppearance.Compat.Notification.Title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:text="Dias"
+                        android:textColor="@color/md_black_1000"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewRangoDias"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="8dp"
+                        android:textSize="@dimen/fab_margin"
+                        android:maxLines="1"
+                        android:text="S/. 1200"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.394"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView9Servicio" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+
+                    android:layout_weight="1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline3Servicio"
+                    app:layout_constraintTop_toTopOf="@+id/constraintLayout6Servicio">
+
+                    <TextView
+                        android:id="@+id/textViewCostoPromedioServicio"
+                        style="@style/TextAppearance.Compat.Notification.Title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Horarios"
+                        android:textColor="@color/md_black_1000"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textviewRangoTurno"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:maxLines="1"
+                        android:text="S/. 1200"
+                        android:textSize="@dimen/fab_margin"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewCostoPromedioServicio" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardviewRubro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:visibility="visible"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/includeContent"
+            app:layout_constraintStart_toStartOf="@+id/textViewR"
+            app:layout_constraintTop_toBottomOf="@+id/textViewR">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/contItemView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/imageViewRubro"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/ic_informatica"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textViewDescripcion"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewDescripcion"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Titulo de Propuesta"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/textViewR"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:maxLines="1"
+            android:text="RUBRO:"
+            android:textColor="@color/md_black_1000"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutSegundo" />
+
+
+        <TextView
+            android:id="@+id/textViewO"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:text="ESPECIALIDADES :"
+            android:textColor="@color/md_black_1000"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@+id/cardviewRubro"
+            app:layout_constraintTop_toBottomOf="@+id/cardviewRubro" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardviewOficio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/cardviewRubro"
+            app:layout_constraintStart_toStartOf="@+id/textViewO"
+            app:layout_constraintTop_toBottomOf="@+id/textViewO">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/contItemViewOficio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/textViewDescripcionOficio"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Titulo de Propuesta"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/textViewEspecialidades"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text=" Especialidades"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/includeContent"
+            app:layout_constraintTop_toBottomOf="@+id/cardviewOficio" />
+
+
+        <TextView
+            android:id="@+id/textViewEmpty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:text="---No cuenta con especialidades---"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/btnRevocacion"
+            app:layout_constraintEnd_toEndOf="@+id/includeContent"
+            app:layout_constraintStart_toStartOf="@+id/includeContent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEspecialidades" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reciclador"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/btnRevocacion"
+            app:layout_constraintEnd_toEndOf="@+id/includeContent"
+            app:layout_constraintStart_toStartOf="@+id/includeContent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEspecialidades"></androidx.recyclerview.widget.RecyclerView>
+
+
+        <!--<Button-->
+        <!--android:id="@+id/btnRevocacion"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="36dp"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="@drawable/btn_bg_revocados"-->
+        <!--android:text="Revocación "-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textStyle="bold"-->
+        <!--android:visibility="visible"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/includeContent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/includeContent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/cardviewOficio" />-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:fillViewport="true">-->
+
+    <!--<android.support.constraint.ConstraintLayout-->
+        <!--android:id="@+id/constraintLayoutPrincipal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+
+        <!--<android.support.constraint.ConstraintLayout-->
+            <!--android:id="@+id/linearLayoutPrimero"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textView3">-->
+
+            <!--<android.support.constraint.Guideline-->
+                <!--android:id="@+id/guideline3"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--app:layout_constraintGuide_percent="0.5" />-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout6"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="8dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/one_border"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toStartOf="@+id/guideline3"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent"-->
+                <!--app:layout_constraintVertical_bias="0.0">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView9"-->
+                    <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:text="# Cotizaciones"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/btnCountCotizacion2"-->
+                    <!--android:layout_width="28dp"-->
+                    <!--android:layout_height="28dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/round_button"-->
+                    <!--android:text="0"-->
+                    <!--android:textColor="@color/md_white_1000"-->
+                    <!--android:textStyle="bold"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="@+id/textView9"-->
+                    <!--app:layout_constraintStart_toStartOf="@+id/textView9"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/textView9" />-->
+
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="8dp"-->
+
+                <!--android:layout_weight="1"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/guideline3"-->
+                <!--app:layout_constraintTop_toTopOf="@+id/constraintLayout6">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewCostoPromedio"-->
+                    <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:text="Costo Promedio"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textviewPromedio"-->
+                    <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:maxLines="1"-->
+                    <!--android:text="S/. 1200"-->
+                    <!--android:textColor="@color/colorPrimary"-->
+                    <!--android:textStyle="bold"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="@+id/textViewCostoPromedio"-->
+                    <!--app:layout_constraintStart_toStartOf="@+id/textViewCostoPromedio"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/textViewCostoPromedio" />-->
+
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+        <!--</android.support.constraint.ConstraintLayout>-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewCosto"-->
+            <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:text="Detalles de la Propuesta"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.502"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/linearLayoutPrimero" />-->
+
+
+        <!--<include-->
+            <!--android:id="@+id/includeContent"-->
+            <!--layout="@layout/view_design_editext_cliente_detalles"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="32dp"-->
+            <!--android:layout_marginLeft="32dp"-->
+            <!--android:layout_marginRight="32dp"-->
+            <!--android:layout_marginStart="32dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="1.0"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textViewCosto" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewImagenPropuesta"-->
+            <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:text="Imagenes de la Propuesta"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/includeContent"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/includeContent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/includeContent" />-->
+
+
+        <!--<android.support.constraint.ConstraintLayout-->
+            <!--android:id="@+id/constraintLayoutImagenes"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:visibility="visible"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/includeContent"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/includeContent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textViewImagenPropuesta">-->
+
+            <!--<android.support.constraint.Guideline-->
+                <!--android:id="@+id/guide"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--app:layout_constraintGuide_percent="0.5" />-->
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageViewPrimero"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:src="@drawable/agregar_imagen"-->
+                <!--android:visibility="gone"-->
+                <!--app:layout_constraintEnd_toStartOf="@+id/guide"-->
+                <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageViewSegundo"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:src="@drawable/agregar_imagen"-->
+                <!--android:visibility="gone"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/guide"-->
+                <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/textViewEmptyImagenes"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="24dp"-->
+                <!--android:text="No hay Imagenes"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+        <!--</android.support.constraint.ConstraintLayout>-->
+
+
+
+
+        <!--<TextView-->
+            <!--android:visibility="visible"-->
+            <!--android:id="@+id/textViewAtH"-->
+            <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="23dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:text=" Hora Atención"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayoutImagenes"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/constraintLayoutImagenes"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayoutImagenes" />-->
+
+
+        <!--<android.support.constraint.ConstraintLayout-->
+            <!--android:id="@+id/linearLayoutSegundo"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textViewAtH">-->
+
+            <!--<android.support.constraint.Guideline-->
+                <!--android:id="@+id/guideline3Segundo"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--app:layout_constraintGuide_percent="0.5" />-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout6Segundo"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="8dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/one_border"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toStartOf="@+id/guideline3Segundo"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent"-->
+                <!--app:layout_constraintVertical_bias="0.0">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView9Segundo"-->
+                    <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:text="Dias"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewRangoDias"-->
+                    <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:maxLines="1"-->
+                    <!--android:text="S/. 1200"-->
+                    <!--android:textColor="@color/colorPrimary"-->
+                    <!--android:textStyle="bold"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="@+id/textView9Segundo"-->
+                    <!--app:layout_constraintStart_toStartOf="@+id/textView9Segundo"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/textView9Segundo" />-->
+
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="8dp"-->
+
+                <!--android:layout_weight="1"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/guideline3Segundo"-->
+                <!--app:layout_constraintTop_toTopOf="@+id/constraintLayout6Segundo">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewCostoPromedioSegundo"-->
+                    <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:text="Horario"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textviewRangoTurno"-->
+                    <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:maxLines="1"-->
+                    <!--android:text="S/. 1200"-->
+                    <!--android:textColor="@color/colorPrimary"-->
+                    <!--android:textStyle="bold"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="@+id/textViewCostoPromedioSegundo"-->
+                    <!--app:layout_constraintStart_toStartOf="@+id/textViewCostoPromedioSegundo"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/textViewCostoPromedioSegundo" />-->
+
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+        <!--</android.support.constraint.ConstraintLayout>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/cardviewRubro"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/includeContent"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/textViewR"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textViewR">-->
+
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/contItemView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/imageViewRubro"-->
+                    <!--android:layout_width="32dp"-->
+                    <!--android:layout_height="32dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginLeft="16dp"-->
+                    <!--android:layout_marginStart="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:src="@drawable/ic_informatica"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewDescripcion"-->
+                    <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:text="Titulo de Propuesta"-->
+                    <!--android:textColor="@color/md_grey_700"-->
+                    <!--android:textStyle="bold"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintStart_toEndOf="@+id/imageViewRubro"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewR"-->
+            <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="32dp"-->
+            <!--android:layout_marginStart="32dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:maxLines="1"-->
+            <!--android:text="Rubro:"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:textStyle="bold"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/linearLayoutSegundo" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewO"-->
+            <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:maxLines="1"-->
+            <!--android:text="Oficio:"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:textStyle="bold"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/cardviewRubro"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/cardviewRubro" />-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/cardviewOficio"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/cardviewRubro"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/textViewO"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textViewO">-->
+
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/contItemViewOficio"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewDescripcionOficio"-->
+                    <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:text="Titulo de Propuesta"-->
+                    <!--android:textColor="@color/md_grey_700"-->
+                    <!--android:textStyle="bold"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<TextView-->
+            <!--android:visibility="visible"-->
+            <!--android:id="@+id/textViewEspecialidades"-->
+            <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:text=" Especialidades"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/includeContent"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/includeContent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/cardviewOficio" />-->
+
+
+        <!--<TextView-->
+            <!--android:visibility="visible"-->
+            <!--android:id="@+id/textViewEmpty"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="36dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="36dp"-->
+            <!--android:text="-&#45;&#45;No cuenta con especialidades-&#45;&#45;"-->
+            <!--app:layout_constraintBottom_toTopOf="@+id/btnRevocacion"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/includeContent"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/includeContent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textViewEspecialidades" />-->
+
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/reciclador"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintBottom_toTopOf="@+id/btnRevocacion"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/includeContent"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/includeContent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/textViewEspecialidades"></android.support.v7.widget.RecyclerView>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btnRevocacion"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="36dp"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:background="@drawable/btn_bg_revocados"-->
+            <!--android:text="Revocación "-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textStyle="bold"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/includeContent"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/includeContent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/linerAceptar" />-->
+
+
+
+    <!--</android.support.constraint.ConstraintLayout>-->
+
+<!--</ScrollView>-->

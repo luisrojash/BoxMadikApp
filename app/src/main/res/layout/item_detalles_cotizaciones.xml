@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewItemView"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginStart="6dp"
+    android:layout_marginTop="@dimen/dimen_8dp"
+    app:cardCornerRadius="@dimen/fab_margin">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="@dimen/dimen_80dp"
+            android:layout_height="@dimen/dimen_80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+
+            android:src="@drawable/ic_file_upload_black_24dp"
+            app:civ_border_color="#d7d7d7"
+            app:civ_border_width="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textColor="@color/md_white_1000"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="25dp"
+            android:text="INFORMACIÓN ESPECIALISTA"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:contentDescription="@string/informacion_cursos_estudios"
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_electricista"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfile"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfile" />
+
+
+        <TextView
+            android:id="@+id/textViewNombre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="16dp"
+            android:text="Juan Perez Soza asddsdad "
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:textStyle="bold"
+            android:textColor="@color/md_black_1000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgProfile"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+
+        <ImageView
+            android:id="@+id/imageViewBandera"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_bandera"
+            android:contentDescription="@string/informacion_cursos_estudios"
+            app:layout_constraintStart_toEndOf="@+id/imgProfile"
+            app:layout_constraintTop_toBottomOf="@+id/textViewFecha" />
+
+
+        <TextView
+            android:id="@+id/textViewFecha"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/md_black_1000"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Juan Perez Soza"
+            app:layout_constraintStart_toEndOf="@+id/imgProfile"
+            app:layout_constraintTop_toBottomOf="@+id/textViewNombre" />
+
+
+        <TextView
+            android:id="@+id/textViewDireccion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:gravity="start"
+            android:maxLines="1"
+            android:text="Juan Perez Soza"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/md_black_1000"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBandera"
+            app:layout_constraintTop_toBottomOf="@+id/textViewFecha" />
+
+
+        <RatingBar
+            android:id="@+id/myRatingBar"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:max="5"
+            android:numStars="5"
+            android:rating="2.5"
+            android:scaleX=".8"
+            android:scaleY=".8"
+            android:stepSize="0.5"
+            android:transformPivotX="20dp"
+            android:transformPivotY="20dp"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@+id/textViewFecha"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDireccion" />
+
+
+        <TextView
+            android:id="@+id/textViewMonto"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="8dp"
+            android:text="S./5000.00"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/myRatingBar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfile" />
+
+
+        <TextView
+            android:id="@+id/tagEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/md_yellow_700"
+            android:elevation="@dimen/fab_margin"
+            android:text="Pendiente"
+            android:textColor="@color/md_white_1000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewMonto"
+            app:layout_constraintEnd_toEndOf="parent" tools:targetApi="lollipop"/>
+
+
+        <TextView
+            android:id="@+id/textViewPCalifficar"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Pendiente Calificar"
+            android:textColor="@color/md_red_600"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/myRatingBar"
+            app:layout_constraintTop_toTopOf="@+id/textViewMonto" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

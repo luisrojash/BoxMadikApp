@@ -1,0 +1,15 @@
+
+<
+java:S1170)"!Make this final field static too.(Ðþž¹øÿÿÿÿ
+c
+java:S4275I"HRefactor this getter so that it actually refers to the field "activity".(¹³‡Šÿÿÿÿÿ
+?
+java:S1185Œ"(Remove this method to simply inherit it.(Ù«µ§
+
+java:S3252œ"hUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_SHORT".(ÅëÆÆ
+V	java:S125O"<This block of commented-out lines of code should be removed.(ÎÅäÂúÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(™“®ëûÿÿÿÿ
+W	java:S125†"<This block of commented-out lines of code should be removed.(Àµ®ãüÿÿÿÿ
+W	java:S125Ž"<This block of commented-out lines of code should be removed.(™“®ëûÿÿÿÿ
+W	java:S125§"<This block of commented-out lines of code should be removed.(îµ”Ðýÿÿÿÿ
+W	java:S125®"<This block of commented-out lines of code should be removed.(èÎçÔýÿÿÿÿ

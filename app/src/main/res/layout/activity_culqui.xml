@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fondo_color"
+        android:elevation="32dp">
+
+
+        <TextView
+            android:id="@+id/textViewPagoCotizacion"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="0 \n Monto a Pagar"
+            android:textColor="#ff491c"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView28"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="Nº Tarjeta:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewPagoCotizacion" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_credit_card"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_cardnumber"
+            app:layout_constraintStart_toStartOf="@+id/textView28"
+            app:layout_constraintTop_toTopOf="@+id/txt_cardnumber" />
+
+
+        <EditText
+            android:textColor="@color/md_black_1000"
+            android:id="@+id/txt_cardnumber"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="1"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="Card Number"
+            android:inputType="number"
+            android:maxLength="16"
+            android:selectAllOnFocus="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+
+        <TextView
+
+            android:id="@+id/textView29"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Caducidad:"
+            app:layout_constraintStart_toStartOf="@+id/textView28"
+            app:layout_constraintTop_toBottomOf="@+id/txt_cardnumber" />
+
+        <ImageView
+
+            android:id="@+id/imageView9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_calendar"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_month"
+            app:layout_constraintStart_toStartOf="@+id/textView29"
+            app:layout_constraintTop_toTopOf="@+id/txt_month" />
+
+
+        <EditText
+            android:id="@+id/txt_month"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_cardnumber"
+            android:layout_column="0"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="2"
+            android:background="@drawable/border"
+            android:ems="5"
+            android:enabled="false"
+            android:hint="Mes"
+            android:textColor="@color/md_black_1000"
+            android:inputType="number"
+            android:maxLength="2"
+            app:layout_constraintEnd_toStartOf="@+id/txt_year"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+
+        <EditText
+            android:id="@+id/txt_year"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_alignBaseline="@+id/txt_month"
+            android:layout_alignBottom="@+id/txt_month"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:layout_toEndOf="@+id/txt_month"
+            android:layout_toRightOf="@+id/txt_month"
+            android:background="@drawable/border"
+            android:ems="5"
+            android:enabled="false"
+            android:hint="Año"
+            android:textColor="@color/md_black_1000"
+            android:inputType="number"
+            android:maxLength="4"
+            app:layout_constraintEnd_toEndOf="@+id/txt_cardnumber"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txt_month"
+            app:layout_constraintTop_toTopOf="@+id/txt_month" />
+
+
+        <TextView
+
+            android:id="@+id/textoSeguridad"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Codigo Seguridad:"
+            app:layout_constraintStart_toStartOf="@+id/textView29"
+            app:layout_constraintTop_toBottomOf="@+id/txt_month" />
+
+
+        <ImageView
+
+
+            android:id="@+id/imageView10"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_lock_colored"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_cvv"
+            app:layout_constraintStart_toStartOf="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="@+id/txt_cvv" />
+
+
+        <EditText
+            android:id="@+id/txt_cvv"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_alignBottom="@+id/txt_year"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/txt_year"
+            android:layout_toRightOf="@+id/txt_year"
+            android:background="@drawable/border"
+            android:ems="5"
+            android:textColor="@color/md_black_1000"
+            android:enabled="false"
+            android:hint="CVV"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/txt_year"
+            app:layout_constraintStart_toEndOf="@+id/imageView10"
+            app:layout_constraintTop_toBottomOf="@+id/textoSeguridad" />
+
+
+        <TextView
+
+            android:id="@+id/textCorreo"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Correo Electronico:"
+            app:layout_constraintStart_toStartOf="@+id/textoSeguridad"
+            app:layout_constraintTop_toBottomOf="@+id/txt_cvv" />
+
+
+        <ImageView
+
+
+            android:id="@+id/imageView11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_email"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_email"
+            app:layout_constraintStart_toStartOf="@+id/textCorreo"
+            app:layout_constraintTop_toTopOf="@+id/txt_email" />
+
+
+        <EditText
+            android:textColor="@color/md_black_1000"
+            android:id="@+id/txt_email"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_month"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="Correo electronico"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="@+id/txt_cvv"
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:layout_constraintTop_toBottomOf="@+id/textCorreo" />
+
+
+        <TextView
+            android:id="@+id/kind_card"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewPagoCotizacion" />
+
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_bg"
+            android:text="PAGAR "
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_email" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+
+    <!--<TextView--><!--android:id="@+id/textViewPagoCotizacion"--><!--style="@style/TextAppearance.AppCompat.Large"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginEnd="8dp"--><!--android:layout_marginLeft="8dp"--><!--android:layout_marginRight="8dp"--><!--android:layout_marginStart="8dp"--><!--android:layout_marginTop="8dp"--><!--android:gravity="center"--><!--android:text="1200 \n Monto a Pagar"--><!--android:textColor="#ff491c"--><!--android:textStyle="bold"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintStart_toStartOf="parent"--><!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--<EditText--><!--android:id="@+id/txt_cardnumber"--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_alignParentEnd="true"--><!--android:layout_alignParentLeft="true"--><!--android:layout_alignParentRight="true"--><!--android:layout_alignParentStart="true"--><!--android:layout_column="0"--><!--android:layout_marginEnd="16dp"--><!--android:layout_marginLeft="16dp"--><!--android:layout_marginRight="16dp"--><!--android:layout_marginStart="16dp"--><!--android:layout_marginTop="16dp"--><!--android:layout_row="1"--><!--android:background="@drawable/border"--><!--android:ems="10"--><!--android:enabled="false"--><!--android:hint="Card Number"--><!--android:inputType="number"--><!--android:maxLength="16"--><!--android:selectAllOnFocus="false"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintHorizontal_bias="0.0"--><!--app:layout_constraintStart_toStartOf="parent"--><!--app:layout_constraintTop_toBottomOf="@+id/textViewPagoCotizacion" />-->
+
+
+    <!--<EditText--><!--android:id="@+id/txt_month"--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_alignParentLeft="true"--><!--android:layout_alignParentStart="true"--><!--android:layout_below="@+id/txt_cardnumber"--><!--android:layout_column="0"--><!--android:layout_row="2"--><!--android:background="@drawable/border"--><!--android:ems="5"--><!--android:hint="Mes"--><!--android:enabled="false"--><!--android:inputType="number"--><!--android:maxLength="2"--><!--app:layout_constraintEnd_toStartOf="@+id/txt_cvv"--><!--app:layout_constraintHorizontal_bias="0.5"--><!--app:layout_constraintStart_toEndOf="@+id/txt_year"--><!--app:layout_constraintTop_toTopOf="@+id/txt_year" />-->
+
+    <!--<EditText--><!--android:id="@+id/txt_year"--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_alignBaseline="@+id/txt_month"--><!--android:layout_alignBottom="@+id/txt_month"--><!--android:layout_column="1"--><!--android:layout_marginTop="8dp"--><!--android:layout_row="4"--><!--android:layout_toEndOf="@+id/txt_month"--><!--android:layout_toRightOf="@+id/txt_month"--><!--android:background="@drawable/border"--><!--android:ems="5"--><!--android:enabled="false"--><!--android:hint="Año"--><!--android:inputType="number"--><!--android:maxLength="4"--><!--app:layout_constraintEnd_toStartOf="@+id/txt_month"--><!--app:layout_constraintHorizontal_bias="0.5"--><!--app:layout_constraintStart_toStartOf="@+id/txt_cardnumber"--><!--app:layout_constraintTop_toBottomOf="@+id/txt_cardnumber" />-->
+
+    <!--<EditText--><!--android:id="@+id/txt_cvv"--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_alignBottom="@+id/txt_year"--><!--android:layout_alignParentEnd="true"--><!--android:layout_alignParentRight="true"--><!--android:layout_toRightOf="@+id/txt_year"--><!--android:background="@drawable/border"--><!--android:ems="5"--><!--android:hint="CVV"--><!--android:enabled="false"--><!--android:inputType="number"--><!--app:layout_constraintEnd_toEndOf="@+id/txt_cardnumber"--><!--app:layout_constraintHorizontal_bias="0.5"--><!--app:layout_constraintStart_toEndOf="@+id/txt_month"--><!--app:layout_constraintTop_toTopOf="@+id/txt_year"--><!--android:layout_toEndOf="@+id/txt_year" />-->
+
+
+    <!--<EditText--><!--android:id="@+id/txt_email"--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_alignParentEnd="true"--><!--android:layout_alignParentLeft="true"--><!--android:layout_alignParentRight="true"--><!--android:layout_alignParentStart="true"--><!--android:layout_below="@+id/txt_month"--><!--android:layout_marginEnd="16dp"--><!--android:layout_marginLeft="16dp"--><!--android:layout_marginRight="16dp"--><!--android:layout_marginStart="16dp"--><!--android:layout_marginTop="8dp"--><!--android:background="@drawable/border"--><!--android:ems="10"--><!--android:enabled="false"--><!--android:hint="Correo electronico"--><!--android:inputType="textEmailAddress"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintStart_toStartOf="parent"--><!--app:layout_constraintTop_toBottomOf="@+id/txt_month" />-->
+
+
+    <!--<Button--><!--android:id="@+id/btnSiguiente"--><!--android:layout_width="match_parent"--><!--android:layout_height="36dp"--><!--android:layout_marginBottom="16dp"--><!--android:layout_marginEnd="16dp"--><!--android:layout_marginLeft="16dp"--><!--android:layout_marginRight="16dp"--><!--android:layout_marginStart="16dp"--><!--android:background="@drawable/btn_bg"--><!--android:text="PAGAR "--><!--android:textColor="#ffffff"--><!--android:textStyle="bold"--><!--android:visibility="visible"--><!--app:layout_constraintBottom_toBottomOf="parent"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintStart_toStartOf="parent" />-->
+
+
+    <!--<TextView--><!--android:id="@+id/kind_card"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_marginEnd="8dp"--><!--android:layout_marginLeft="8dp"--><!--android:layout_marginRight="8dp"--><!--android:layout_marginStart="8dp"--><!--android:layout_marginTop="8dp"--><!--android:text="<czxczxcxzczxczx"--><!--android:textSize="18sp"--><!--android:visibility="visible"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintStart_toStartOf="parent"--><!--app:layout_constraintTop_toBottomOf="@+id/txt_email" />-->
+
+
+    <!--<android.support.v7.widget.CardView--><!--android:id="@+id/carViewPago"--><!--android:visibility="gone"--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_marginEnd="16dp"--><!--android:layout_marginLeft="16dp"--><!--android:layout_marginRight="16dp"--><!--android:layout_marginStart="16dp"--><!--android:layout_marginTop="8dp"--><!--app:cardElevation="@dimen/dimen_8dp"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintStart_toStartOf="parent"--><!--app:layout_constraintTop_toTopOf="@+id/txt_month">-->
+
+    <!--<android.support.constraint.ConstraintLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+    <!--<TextView--><!--android:id="@+id/textView28"--><!--style="@style/TextAppearance.Compat.Notification.Title"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginEnd="8dp"--><!--android:layout_marginLeft="8dp"--><!--android:layout_marginRight="8dp"--><!--android:layout_marginStart="8dp"--><!--android:layout_marginTop="8dp"--><!--android:text="REALIZAR PAGO"--><!--android:textColor="@color/md_black_1000"--><!--android:textStyle="bold"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintStart_toStartOf="parent"--><!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<EditText--><!--android:visibility="gone"--><!--android:id="@+id/editTextEmail"--><!--android:layout_width="match_parent"--><!--android:layout_height="42dp"--><!--android:layout_marginEnd="24dp"--><!--android:layout_marginLeft="24dp"--><!--android:layout_marginRight="24dp"--><!--android:layout_marginStart="24dp"--><!--android:layout_marginTop="24dp"--><!--android:background="@drawable/rounded_edittext"--><!--android:drawableLeft="@drawable/envelope"--><!--android:drawablePadding="20dp"--><!--android:hint="Correo"--><!--android:inputType="textEmailAddress"--><!--android:maxLines="1"--><!--android:paddingBottom="12dp"--><!--android:paddingLeft="8dp"--><!--android:paddingRight="12dp"--><!--android:paddingTop="12dp"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintHorizontal_bias="0.0"--><!--app:layout_constraintStart_toStartOf="parent"--><!--app:layout_constraintTop_toBottomOf="@+id/textView28" />--><!--&lt;!&ndash;android:text="PEN: S. / 1200"&ndash;&gt;-->
+
+    <!--<TextView--><!--android:id="@+id/textViewPago"--><!--style="@style/TextAppearance.AppCompat.Large"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginEnd="8dp"--><!--android:layout_marginLeft="8dp"--><!--android:layout_marginRight="8dp"--><!--android:layout_marginStart="8dp"--><!--android:layout_marginTop="24dp"-->
+
+    <!--android:textColor="#ff0000"--><!--android:textStyle="bold"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintStart_toStartOf="parent"--><!--app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />--><!--&lt;!&ndash;android:background="@color/md_red_A700"&ndash;&gt;-->
+
+    <!--<Button--><!--android:id="@+id/depositar"--><!--android:layout_width="wrap_content"--><!--android:layout_height="34dp"--><!--android:layout_marginBottom="8dp"--><!--android:layout_marginEnd="8dp"--><!--android:layout_marginRight="8dp"--><!--android:layout_marginTop="8dp"--><!--android:background="#ff0000"--><!--android:text="DEPOSITAR"--><!--android:textColor="@color/md_white_1000"--><!--android:textStyle="bold"--><!--app:layout_constraintBottom_toBottomOf="parent"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintTop_toBottomOf="@+id/textViewPago" />-->
+
+    <!--<ImageView--><!--android:id="@+id/close"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginEnd="8dp"--><!--android:layout_marginRight="8dp"--><!--android:layout_marginTop="8dp"--><!--android:elevation="@dimen/fab_margin"--><!--android:src="@drawable/ic_close_black_24dp"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--</android.support.constraint.ConstraintLayout>-->
+
+
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--</android.support.constraint.ConstraintLayout>-->
+

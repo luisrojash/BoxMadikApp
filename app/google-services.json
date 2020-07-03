@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "280264890165",
+    "firebase_url": "https://boxmadik-220516.firebaseio.com",
+    "project_id": "boxmadik-220516",
+    "storage_bucket": "boxmadik-220516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280264890165:android:91f01f7cacb9bb49",
+        "android_client_info": {
+          "package_name": "com.application.boxmadikv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280264890165-55h6jtp8ub9mck0if72vo6upm5tujmma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.boxmadikv1",
+            "certificate_hash": "f930ab1ea4bd9a48b7be4c3f082620f3d655b521"
+          }
+        },
+        {
+          "client_id": "280264890165-4as94askhj0hv0sp73ceu1gid03bddmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.boxmadikv1",
+            "certificate_hash": "ada531ca97755893a9f5fec4165a88ea8bb46738"
+          }
+        },
+        {
+          "client_id": "280264890165-5j30des6vdmkj0bnbggde8etmbqdsggm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfBxboNBxwVWyVl_KV_3kf5f4dftBXzOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280264890165-5j30des6vdmkj0bnbggde8etmbqdsggm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

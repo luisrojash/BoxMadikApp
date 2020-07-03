@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_color"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutPuesto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_edittext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextViewCurso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:completionThreshold="1"
+                android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+                android:drawablePadding="20dp"
+                android:hint="@string/informacion_seleccion_tipo_puesto"
+                android:maxLines="3"
+                android:paddingBottom="12dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/md_black_1000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageViewClosePuesto"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+            </AutoCompleteTextView>
+
+            <ImageView
+                android:id="@+id/imageViewClosePuesto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ic_dialog_close_light"
+                app:layout_constraintBottom_toBottomOf="@+id/autoCompleteTextViewCurso"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/autoCompleteTextViewCurso" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <EditText
+            android:id="@+id/editTextNombreCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_edittext"
+            android:completionThreshold="1"
+            android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+            android:drawablePadding="20dp"
+            android:hint="Nombre del Curso"
+            android:maxLength="60"
+            android:paddingBottom="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="10dp"
+            android:paddingTop="12dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutPuesto">
+
+        </EditText>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutCentro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_edittext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNombreCurso">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextCentroEstudios"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:completionThreshold="1"
+                android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+                android:drawablePadding="20dp"
+                android:hint="@string/informacion_seleccion_centro_estudios"
+                android:maxLines="3"
+                android:paddingBottom="12dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/md_black_1000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageViewCloseCentro"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+            </AutoCompleteTextView>
+
+            <ImageView
+                android:id="@+id/imageViewCloseCentro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ic_dialog_close_light"
+                app:layout_constraintBottom_toBottomOf="@+id/autoCompleteTextCentroEstudios"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/autoCompleteTextCentroEstudios" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!--<AutoCompleteTextView-->
+        <!--android:id="@+id/autoCompleteTextCentroEstudios"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginStart="16dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="@drawable/rounded_edittext"-->
+        <!--android:completionThreshold="1"-->
+        <!--android:drawableLeft="@drawable/ic_mode_edit_black_24dp"-->
+        <!--android:drawablePadding="20dp"-->
+        <!--android:hint="@string/informacion_seleccion_centro_estudios"-->
+        <!--android:maxLines="3"-->
+        <!--android:paddingBottom="12dp"-->
+        <!--android:paddingLeft="8dp"-->
+        <!--android:paddingRight="12dp"-->
+        <!--android:paddingTop="12dp"-->
+        <!--android:visibility="visible"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/editTextNombreCurso" />-->
+
+        <Button
+            android:id="@+id/editFechaInicio"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/ic_date"
+            android:drawablePadding="20dp"
+            android:hint="Fecha Inicio"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingBottom="12dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:text="Fecha Inicio"
+            app:layout_constraintEnd_toStartOf="@+id/Guideline"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayoutCentro"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutCentro" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/Guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <Button
+            android:id="@+id/editFechaFin"
+            android:layout_width="0dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/ic_date"
+            android:drawablePadding="20dp"
+            android:hint="Fecha Fin"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingBottom="12dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:text="Fecha Fin"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayoutCentro"
+            app:layout_constraintStart_toStartOf="@+id/Guideline"
+            app:layout_constraintTop_toTopOf="@+id/editFechaInicio" />
+
+        <Button
+            android:id="@+id/btnAgregarItem"
+            android:layout_width="220dp"
+            android:layout_height="26dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_bg"
+            android:text="Agregar Cursos "
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.567"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editFechaInicio" />
+
+
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/reciclador"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="24dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:minHeight="160dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/btnGuardar"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/editFechaFin"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/editFechaInicio"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/btnAgregarItem"></android.support.v7.widget.RecyclerView>-->
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.86" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_bg"
+            android:text="Guardar "
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGuardar" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reciclador"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline8"
+            app:layout_constraintEnd_toEndOf="@+id/editFechaFin"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editFechaInicio"
+            app:layout_constraintTop_toBottomOf="@+id/btnAgregarItem"></androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

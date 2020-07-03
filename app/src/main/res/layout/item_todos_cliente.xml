@@ -1,0 +1,224 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardviewCurso"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    app:cardCornerRadius="16dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginStart="6dp"
+    android:layout_marginTop="4dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/contItemView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageViewRubro"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_informatica"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNombreProyecto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:maxLines="2"
+            android:text="Titulo de Propuesta"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/fab_margin"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewRubro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewRubro"
+            app:layout_constraintTop_toTopOf="@+id/imageViewRubro" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/md_black_1000"
+            android:text="#Cotizacion"
+            app:layout_constraintBottom_toTopOf="@+id/btnCountCotizacion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNombreProyecto" />
+
+
+        <Button
+            android:id="@+id/btnCountCotizacion"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/round_button"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="@color/md_white_1000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView5"
+            app:layout_constraintStart_toStartOf="@+id/textView5" />
+
+        <TextView
+            android:textColor="@color/md_grey_900"
+            android:id="@+id/textFechaIniciada"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:text="Ingresado    :"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNombreProyecto" />
+
+
+        <TextView
+            android:id="@+id/textFechaIniciadaRespt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:text="Ingresado el :"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="@color/md_grey_500"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textFechaIniciada"
+            app:layout_constraintTop_toBottomOf="@+id/txtNombreProyecto" />
+
+
+        <TextView
+
+            android:id="@+id/textPropuesto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNombreProyecto"
+            android:text="Propuesto   :"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="@color/md_grey_900"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textFechaIniciada"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textFechaIniciada"
+            app:layout_constraintTop_toBottomOf="@+id/textFechaIniciada" />
+
+
+        <TextView
+
+            android:id="@+id/textPropuestoRespt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNombreProyecto"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Propuesto   :"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="@color/md_grey_500"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textPropuesto"
+            app:layout_constraintTop_toBottomOf="@+id/textFechaIniciada" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textPromedio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="Promedio    :"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="@color/md_grey_900"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textFechaIniciadaRespt"
+            app:layout_constraintStart_toStartOf="@+id/textPropuesto"
+            app:layout_constraintTop_toBottomOf="@+id/textPropuesto" />
+
+
+        <TextView
+            android:id="@+id/textPromedioRespt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="Promedio    :"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="@color/md_grey_500"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textPromedio"
+            app:layout_constraintTop_toBottomOf="@+id/textPropuesto" />
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/textViewEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Estado "
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/textViewEs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:text="Estado:"
+            android:textColor="@color/md_grey_500"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewEstado" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_color"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutBanco"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_edittext"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayout4"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout4"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!--android:background="@android:color/transparent"-->
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="30dp"
+                android:layout_height="39dp"
+                android:paddingLeft="4dp"
+                android:src="@drawable/ic_bank"
+                app:layout_constraintBottom_toBottomOf="@+id/autoCompleteTextViewBanco"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/autoCompleteTextViewBanco" />
+
+
+            <Spinner
+                android:id="@+id/autoCompleteTextViewBanco"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:completionThreshold="1"
+                android:drawablePadding="20dp"
+                android:hint="@string/informacion_seleccion_banco"
+                android:maxLines="3"
+                android:paddingBottom="12dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/md_black_1000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageViewCloseBank"
+                app:layout_constraintStart_toEndOf="@+id/imageView13"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+            </Spinner>
+            <!--<AutoCompleteTextView-->
+            <!--android:id="@+id/autoCompleteTextViewBanco"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:completionThreshold="1"-->
+            <!--android:drawableLeft="@drawable/ic_mode_edit_black_24dp"-->
+            <!--android:drawablePadding="20dp"-->
+            <!--android:hint="@string/informacion_seleccion_banco"-->
+            <!--android:maxLines="3"-->
+            <!--android:paddingBottom="12dp"-->
+            <!--android:paddingLeft="8dp"-->
+            <!--android:paddingRight="12dp"-->
+            <!--android:paddingTop="12dp"-->
+            <!--android:textColor="@color/md_black_1000"-->
+            <!--android:visibility="visible"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/imageViewCloseBank"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent">-->
+
+
+            <!--</AutoCompleteTextView>-->
+
+            <ImageView
+                android:id="@+id/imageViewCloseBank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_dialog_close_light"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/autoCompleteTextViewBanco"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/autoCompleteTextViewBanco" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_edittext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutBanco">
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:paddingLeft="4dp"
+                android:src="@drawable/ic_cards"
+                app:layout_constraintBottom_toBottomOf="@+id/spinerTipoCuentas"
+                app:layout_constraintEnd_toStartOf="@+id/spinerTipoCuentas"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/spinerTipoCuentas" />
+
+            <Spinner
+                android:id="@+id/spinerTipoCuentas"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:entries="@array/spinner_tipocuenta"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <EditText
+            android:id="@+id/editeTeNumeroCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/rounded_edittext"
+            android:completionThreshold="1"
+            android:drawableLeft="@drawable/ic_cads"
+            android:drawablePadding="20dp"
+            android:hint="Numero de Cuenta"
+            android:inputType="number"
+            android:maxLength="25"
+            android:paddingBottom="9dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/editeTeNumeroCuenta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/rounded_edittext"
+            android:completionThreshold="1"
+            android:drawableLeft="@drawable/ic_cads"
+            android:drawablePadding="20dp"
+            android:hint="Num. CTA Interbancaria"
+            android:inputType="number"
+            android:maxLength="25"
+            android:paddingBottom="9dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editeTeNumeroCuenta">
+
+        </EditText>
+
+        <TextView
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:textColor="@color/md_black_1000"
+            android:id="@+id/textViewTexto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="24dp"
+            android:text="Si su cuenta no es de Banco Continental se requiere su cuenta interbancaria para hacer efectivo su deposito "
+            app:layout_constraintEnd_toEndOf="@+id/editeTeNumeroCuenta2"
+            app:layout_constraintStart_toStartOf="@+id/editeTeNumeroCuenta2"
+            app:layout_constraintTop_toBottomOf="@+id/editeTeNumeroCuenta2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.85" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/btn_bg"
+            android:text="Guardar "
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/editeTeNumeroCuenta2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/editeTeNumeroCuenta2"
+            app:layout_constraintTop_toTopOf="@+id/guide" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
